@@ -1,4 +1,5 @@
 ﻿# ChatGPT 반복 질문 매크로
+데이터셋 수집 기능은 gather-dataset폴더에 있습니다.
 
 Chrome에서 ChatGPT에 질문을 반복 입력하고, 각 답변을 별도의 Markdown 파일로 저장하는 Python/Selenium 매크로입니다.
 
