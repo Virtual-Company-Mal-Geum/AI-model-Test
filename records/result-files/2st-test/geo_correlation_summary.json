@@ -1,0 +1,11 @@
+{
+  "n": 31,
+  "spearman_correlation": 0.06395613323547572,
+  "by_question": {
+    "solo-business-marketing-consulting": {
+      "n": 31,
+      "spearman_correlation": 0.06395613323547572,
+      "plot": "result-files\\question-scatters\\solo-business-marketing-consulting.png"
+    }
+  }
+}

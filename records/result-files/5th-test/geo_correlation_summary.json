@@ -1,0 +1,26 @@
+{
+  "n": 436,
+  "spearman_correlation": 0.0006614361989191714,
+  "by_question": {
+    "GEO서비스-탐색-질문": {
+      "n": 162,
+      "spearman_correlation": -0.02273229613080481,
+      "plot": "result-files\\question-scatters\\GEO서비스-탐색-질문.png"
+    },
+    "마케팅-컨설팅-탐색-질문": {
+      "n": 207,
+      "spearman_correlation": 0.05034224709399059,
+      "plot": "result-files\\question-scatters\\마케팅-컨설팅-탐색-질문.png"
+    },
+    "온라인-강좌-탐색-질문": {
+      "n": 30,
+      "spearman_correlation": 0.277348879172626,
+      "plot": "result-files\\question-scatters\\온라인-강좌-탐색-질문.png"
+    },
+    "이커머스-탐색-질문": {
+      "n": 37,
+      "spearman_correlation": 0.13504559924603798,
+      "plot": "result-files\\question-scatters\\이커머스-탐색-질문.png"
+    }
+  }
+}

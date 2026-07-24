@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.farfetch.com/kr",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.farfetch.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  }
+]

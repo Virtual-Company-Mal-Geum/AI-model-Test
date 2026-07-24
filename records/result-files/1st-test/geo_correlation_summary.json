@@ -1,0 +1,51 @@
+{
+  "n": 121,
+  "spearman_correlation": -0.0636443966000924,
+  "by_question": {
+    "beginner-marketing-practical-course": {
+      "n": 12,
+      "spearman_correlation": 0.08771855821059449,
+      "plot": "result-files\\question-scatters\\beginner-marketing-practical-course.png"
+    },
+    "beginner-running-goods-shop": {
+      "n": 12,
+      "spearman_correlation": -0.14714486185119274,
+      "plot": "result-files\\question-scatters\\beginner-running-goods-shop.png"
+    },
+    "handmade-leather-wallet-gift": {
+      "n": 21,
+      "spearman_correlation": -0.12195741731092835,
+      "plot": "result-files\\question-scatters\\handmade-leather-wallet-gift.png"
+    },
+    "small-brand-sns-consulting": {
+      "n": 5,
+      "spearman_correlation": null,
+      "plot": "result-files\\question-scatters\\small-brand-sns-consulting.png"
+    },
+    "small-shopping-mall-reference": {
+      "n": 11,
+      "spearman_correlation": -0.15352989471574768,
+      "plot": "result-files\\question-scatters\\small-shopping-mall-reference.png"
+    },
+    "solo-business-marketing-consulting": {
+      "n": 13,
+      "spearman_correlation": 0.2058685516626538,
+      "plot": "result-files\\question-scatters\\solo-business-marketing-consulting.png"
+    },
+    "solo-instructor-practical-course-site": {
+      "n": 18,
+      "spearman_correlation": 0.03318283609387817,
+      "plot": "result-files\\question-scatters\\solo-instructor-practical-course-site.png"
+    },
+    "suwon-small-meeting-space": {
+      "n": 12,
+      "spearman_correlation": -0.008105976794696783,
+      "plot": "result-files\\question-scatters\\suwon-small-meeting-space.png"
+    },
+    "twenties-women-diary-shop": {
+      "n": 17,
+      "spearman_correlation": -0.4033081844783674,
+      "plot": "result-files\\question-scatters\\twenties-women-diary-shop.png"
+    }
+  }
+}

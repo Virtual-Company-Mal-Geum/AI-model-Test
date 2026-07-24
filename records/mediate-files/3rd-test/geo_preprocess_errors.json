@@ -1,0 +1,170 @@
+[
+  {
+    "url": "https://georankai.com/",
+    "error": "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://georankai.com/"
+  },
+  {
+    "url": "https://www.eversclinic.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.eversclinic.com/"
+  },
+  {
+    "url": "https://www.hillskin.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hillskin.co.kr/"
+  },
+  {
+    "url": "https://bykimderm.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bykimderm.com/"
+  },
+  {
+    "url": "https://medicubeclinic.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://medicubeclinic.co.kr/"
+  },
+  {
+    "url": "https://www.jangmiin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.jangmiin.com/"
+  },
+  {
+    "url": "https://www.syright.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.syright.co.kr/"
+  },
+  {
+    "url": "https://www.bykimderm.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bykimderm.com/"
+  },
+  {
+    "url": "https://bykimderma.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bykimderma.com/"
+  },
+  {
+    "url": "https://drevers.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.jangmiin.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.jangmiin.co.kr/"
+  },
+  {
+    "url": "https://www.syrightskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.syrightskin.com/"
+  },
+  {
+    "url": "https://jangmiin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jangmiin.com/"
+  },
+  {
+    "url": "https://www.hillhouse.co.kr/",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.hillhouse.co.kr/"
+  },
+  {
+    "url": "https://www.ochian.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ochian.co.kr/"
+  },
+  {
+    "url": "https://hillhouse.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://hillhouse.kr/"
+  },
+  {
+    "url": "https://hillskin.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://hillskin.co.kr/"
+  },
+  {
+    "url": "https://syright.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://syright.co.kr/"
+  },
+  {
+    "url": "https://www.everskin.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.everskin.co.kr/"
+  },
+  {
+    "url": "https://www.everskinclinic.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.hillhousederm.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hillhousederm.com/"
+  },
+  {
+    "url": "https://www.syrightderm.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.syrightderm.com/"
+  },
+  {
+    "url": "http://www.seoulmiskin.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.seoulmiskin.co.kr/"
+  },
+  {
+    "url": "http://www.syrightskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at http://www.syrightskin.com/"
+  },
+  {
+    "url": "https://eversclinic.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://eversclinic.com/"
+  },
+  {
+    "url": "https://hillhousederm.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://hillhousederm.com/"
+  },
+  {
+    "url": "https://syrightderma.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://syrightderma.com/"
+  },
+  {
+    "url": "https://syrightskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://syrightskin.com/"
+  },
+  {
+    "url": "https://www.allforskin.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.allforskin.co.kr/"
+  },
+  {
+    "url": "https://www.allforskin.com/",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.allforskin.com/"
+  },
+  {
+    "url": "https://www.bykimclinic.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bykimclinic.com/"
+  },
+  {
+    "url": "https://www.bykimderma.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bykimderma.com/"
+  },
+  {
+    "url": "https://www.bykimskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bykimskin.com/"
+  },
+  {
+    "url": "https://www.cnpsuwon.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.cnpsuwon.com/"
+  },
+  {
+    "url": "https://www.gdfirstskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gdfirstskin.com/"
+  },
+  {
+    "url": "https://www.ochai.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ochai.co.kr/"
+  },
+  {
+    "url": "https://www.unidclinic.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.unidclinic.com/"
+  },
+  {
+    "url": "https://www.unidoc.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.unidoc.co.kr/"
+  },
+  {
+    "url": "https://www.unnimedical.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.unnimedical.com/"
+  },
+  {
+    "url": "https://www.uwgwanggyo.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.uwgwanggyo.com/"
+  },
+  {
+    "url": "https://www.yoonsulskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.yoonsulskin.com/"
+  },
+  {
+    "url": "https://yoonsulskin.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://yoonsulskin.com/"
+  }
+]

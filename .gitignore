@@ -1,0 +1,19 @@
+# ChatGPT 로그인 세션 및 Chrome 사용자 정보
+.chrome-profile/
+
+# Python 환경 및 캐시
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# 로컬 설정
+.agents/
+.codex/
+.vscode/
+
+# 비밀정보
+.env
+.env.*
+*.pem
+*.key

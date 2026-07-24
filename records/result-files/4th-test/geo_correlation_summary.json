@@ -1,0 +1,16 @@
+{
+  "n": 56,
+  "spearman_correlation": 0.17150132786065725,
+  "by_question": {
+    "GEO이커머스-탐색-질문": {
+      "n": 34,
+      "spearman_correlation": 0.2147598782461151,
+      "plot": "result-files\\question-scatters\\GEO이커머스-탐색-질문.png"
+    },
+    "교육-탐색-질문": {
+      "n": 22,
+      "spearman_correlation": 0.14014103278196366,
+      "plot": "result-files\\question-scatters\\교육-탐색-질문.png"
+    }
+  }
+}

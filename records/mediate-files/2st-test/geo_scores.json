@@ -1,0 +1,312 @@
+[
+  {
+    "url": "https://www.k-startup.go.kr",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '창업진흥원'이라는 주요 엔티티를 명확하게 표시하고 있습니다.\n- 강점: '창업진흥원'이라는 주요 엔티티가 명확히 표시되어 있습니다.\n- 개선점: 더 구체적인 업무 범위나 서비스 내용을 추가하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 링크를 통해 사용자 질문에 대한 답변이 가능하지만, 구조화된 정보는 부족합니다.\n- 강점: 여러 링크를 통해 사용자 질문에 대한 답변이 가능합니다.\n- 개선점: FAQ, 비교 표, 목록 등의 구조화된 정보를 추가하면 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지에는 필요한 출처나 업데이트 날짜 등의 신뢰성 증명 요소가 부족합니다.\n- 강점: 기본적인 메타 태그가 존재합니다.\n- 개선점: 출처, 업데이트 날짜 등의 신뢰성 증명 요소를 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: JSON-LD 데이터가 없으며, 메타 태그와 HTML 내용 사이에 일관성이 부족합니다.\n- 강점: 메타 태그가 존재합니다.\n- 개선점: JSON-LD 데이터를 추가하고, 메타 태그와 HTML 내용을 일관되게 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: 일반적인 도메인 페이지로서 필요한 대부분의 정보를 제공하고 있지만, 구체적인 서비스 내용이 부족합니다.\n- 강점: 주요 엔티티와 관련된 링크들이 제공되고 있습니다.\n- 개선점: 구체적인 서비스 내용과 업무 범위를 추가하면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지에는 최근 업데이트 날짜나 운영 상태를 나타내는 정보가 부족합니다.\n- 강점: 기본적인 메타 태그가 존재합니다.\n- 개선점: 최근 업데이트 날짜나 운영 상태를 나타내는 정보를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터가 없어 Schema-HTML Alignment 점수가 낮습니다.\n2. 구체적인 서비스 내용과 업무 범위가 부족하여 Domain Specific Completeness 점수가 낮습니다.\n3. 출처와 업데이트 날짜 등의 신뢰성 증명 요소가 부족하여 Evidence & Citation Readiness 점수가 낮습니다.\n\n[Priority Actions]\n1. JSON-LD 데이터를 추가하고, 메타 태그와 HTML 내용을 일관되게 유지하세요.\n2. 구체적인 서비스 내용과 업무 범위를 추가하세요.\n3. 출처, 업데이트 날짜 등의 신뢰성 증명 요소를 추가하세요."
+    }
+  },
+  {
+    "url": "https://markety.co.kr",
+    "Total Score": 62.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 62.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: The page discusses '마케티', an AI marketing automation platform.\n- 강점: The main entity and topic are clearly stated in the title, meta description, and header text.\n- 개선점: More specific details about the target audience or industry could improve clarity.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: The page has some structure but lacks direct answers to user questions.\n- 강점: There is a clear summary of the product's features and benefits at the beginning.\n- 개선점: Adding more FAQs, comparison tables, or direct answerable content would enhance the structure.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 14.0 / 20.0\n- 요약: Basic information is provided, but no detailed evidence or citations are present.\n- 강점: Some functional descriptions and pricing tiers are mentioned.\n- 개선점: Including specific data sources, references, or expert endorsements would improve citation readiness.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: No JSON-LD found; meta tags provide basic alignment.\n- 강점: Meta tags are consistent with visible HTML content.\n- 개선점: Adding appropriate schema.org types and ensuring consistency between meta tags and visible content would improve alignment.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: The page covers key aspects of an AI marketing automation platform.\n- 강점: Key features and functionalities are described.\n- 개선점: More specific use cases, customer testimonials, or detailed technical specifications would enhance completeness.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: Current operational status and recent updates are implied.\n- 강점: Pricing tiers and feature lists suggest current offerings.\n- 개선점: Explicitly mentioning recent updates or service guarantees would improve freshness signals.\n\n[Top 3 Failure Reasons]\n1. Lack of detailed evidence and citations.\n2. Insufficient direct answerable content.\n3. Absence of JSON-LD and schema.org types.\n\n[Priority Actions]\n1. Add specific data sources, references, or expert endorsements.\n2. Include more FAQs, comparison tables, or direct answerable content.\n3. Ensure consistency between meta tags and visible content by adding JSON-LD."
+    }
+  },
+  {
+    "url": "https://dasolin.net",
+    "Total Score": 72.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 72.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '다솔인'이라는 기업에 대한 정보를 제공하며, AI 마케팅 도구 SaaS 및 AI Native 전환 컨설팅 서비스를 제공한다.\n- 강점: 명확한 기업 이름과 목적이 잘 설명되어 있다.\n- 개선점: 더 구체적인 서비스 범위를 명시하면 좋을 것이다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 22.0 / 25.0\n- 요약: 페이지는 16개의 AI 마케팅 도구를 상세하게 설명하며, 각 도구의 기능과 사용 방법을 제공한다.\n- 강점: 구조적으로 잘 구성되어 있으며, 여러 섹션으로 나누어져 있어 이해하기 쉽다.\n- 개선점: FAQ나 비교 표 등의 추가적인 구조를 통해 더 구체적인 답변을 제공할 수 있을 것이다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 12.0 / 20.0\n- 요약: 페이지는 다양한 서비스와 가격 정보를 제공하지만, 구체적인 출처나 참조 자료는 없다.\n- 강점: 서비스 가격과 이용 방법 등이 명확히 설명되어 있다.\n- 개선점: 구체적인 출처나 참고 자료를 추가하면 더욱 신뢰성이 높아질 것이다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD와 HTML 내용이 대부분 일치하지만, 일부 필드가 누락되었거나 불완전하다.\n- 강점: 주요 정보가 대부분 일치한다.\n- 개선점: JSON-LD의 모든 필드를 완전히 채워야 한다.\n\n[Category 5: Domain-Specific Completeness (ecommerce)]\n- 점수: 11.0 / 15.0\n- 요약: 페이지는 e-commerce 관련 정보를 제공하지만, 구체적인 제품 세부사항이나 고객 리뷰 등이 부족하다.\n- 강점: 서비스 범위와 가격 정보가 잘 설명되어 있다.\n- 개선점: 제품 세부사항이나 고객 리뷰 등을 추가하면 더 좋은 정보를 제공할 수 있을 것이다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 페이지는 최근 업데이트 된 것으로 보이며, 서비스 가격과 이용 방법 등이 최신 상태이다.\n- 강점: 서비스 가격과 이용 방법 등이 최신 상태이다.\n- 개선점: 업데이트 날짜를 명시하면 더욱 신뢰성이 높아질 것이다.\n\n[Top 3 Failure Reasons]\n1. 구체적인 출처나 참고 자료가 부족하다.\n2. 제품 세부사항이나 고객 리뷰 등이 부족하다.\n3. JSON-LD의 모든 필드가 완전히 채워지지 않았다.\n\n[Priority Actions]\n1. 구체적인 출처나 참고 자료를 추가하라.\n2. 제품 세부사항이나 고객 리뷰 등을 추가하라.\n3. JSON-LD의 모든 필드를 완전히 채워라."
+    }
+  },
+  {
+    "url": "https://www.openads.co.kr",
+    "Total Score": 61.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 61.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: The page discusses marketing insights and trends, but lacks clear identification of the main entity or service offered.\n- 강점: The page mentions marketing insights and trends.\n- 개선점: Clarify the main entity or service offered by the platform.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: The page contains some structured elements like categories and news sections, but lacks direct answers to specific user questions.\n- 강점: Categories and news sections are present.\n- 개선점: Add more direct answers to common user questions and improve FAQ structure.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 8.0 / 20.0\n- 요약: There is no explicit authorship or date information provided, which hinders citation readiness.\n- 강점: Some categories and news sections are present.\n- 개선점: Include author names and publication dates for each article or section.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: No JSON-LD found, leading to a lack of schema alignment.\n- 강점: None.\n- 개선점: Add appropriate JSON-LD to align with visible HTML content.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 11.0 / 15.0\n- 요약: The page covers marketing insights and trends, but lacks detailed domain-specific completeness such as specific product offerings or pricing.\n- 강점: Covers marketing insights and trends.\n- 개선점: Provide more detailed domain-specific information such as products, services, and pricing.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 7.0 / 10.0\n- 요약: The page mentions recent marketing trends, but lacks explicit freshness signals like update dates.\n- 강점: Discusses recent marketing trends.\n- 개선점: Include explicit update dates or freshness signals.\n\n[Top 3 Failure Reasons]\n1. Lack of clear identification of the main entity or service offered.\n2. Absence of JSON-LD and schema alignment.\n3. Insufficient detailed domain-specific information.\n\n[Priority Actions]\n1. Clarify the main entity or service offered by the platform.\n2. Add appropriate JSON-LD to align with visible HTML content.\n3. Provide more detailed domain-specific information such as products, services, and pricing."
+    }
+  },
+  {
+    "url": "https://kmong.com",
+    "Total Score": 76.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 76.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '크몽'이라는 이름으로 마케팅, 디자인, IT 프로그래밍, 영상 등의 다양한 분야의 전문가를 연결하는 서비스를 제공한다는 것을 명확히 설명하고 있습니다.\n- 강점: 주제와 목적이 명확하게 표현되어 있으며, 서비스 범위와 주요 업무 분야들이 잘 정리되어 있습니다.\n- 개선점: 더 구체적인 서비스 영역이나 특징을 추가하면 좋을 것 같습니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 메타 태그와 JSON-LD에서는 서비스 범위를 설명하고 있지만, 실제 콘텐츠에서는 구체적인 정보나 FAQ, 비교 표 등은 부족합니다.\n- 강점: 메타 태그와 JSON-LD에서 서비스 범위와 목적이 명확히 설명되어 있습니다.\n- 개선점: FAQ, 비교 표, 구체적인 서비스 내용 등을 추가하여 사용자가 쉽게 답변할 수 있도록 구조화해야 합니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 16.0 / 20.0\n- 요약: 메타 태그와 JSON-LD에서는 서비스 범위와 목적이 명확히 설명되어 있지만, 구체적인 데이터나 출처, 업데이트 날짜 등의 정보는 없습니다.\n- 강점: 메타 태그와 JSON-LD에서 서비스 범위와 목적이 명확히 설명되어 있습니다.\n- 개선점: 구체적인 데이터, 출처, 업데이트 날짜 등의 정보를 추가하여 신뢰성을 높여야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD와 메타 태그는 서비스 범위와 목적을 명확히 설명하고 있지만, HTML 본문과 완벽하게 일치하지 않습니다.\n- 강점: JSON-LD와 메타 태그는 서비스 범위와 목적을 명확히 설명하고 있습니다.\n- 개선점: HTML 본문과 JSON-LD, 메타 태그 사이에 일관성이 필요합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: 일반적인 도메인 페이지로서, 서비스 범위와 목적은 명확하지만, 구체적인 서비스 내용이나 가격 정보는 부족합니다.\n- 강점: 서비스 범위와 목적이 명확히 설명되어 있습니다.\n- 개선점: 구체적인 서비스 내용, 가격 정보, 이용 방법 등을 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 메타 태그와 JSON-LD에서는 서비스 범위와 목적이 명확히 설명되어 있지만, 최근 업데이트 날짜나 운영 상태 등의 정보는 없습니다.\n- 강점: 메타 태그와 JSON-LD에서 서비스 범위와 목적이 명확히 설명되어 있습니다.\n- 개선점: 최근 업데이트 날짜나 운영 상태 등의 정보를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. 구체적인 서비스 내용이나 가격 정보가 부족합니다.\n2. FAQ, 비교 표, 구체적인 서비스 내용 등을 추가해야 합니다.\n3. HTML 본문과 JSON-LD, 메타 태그 사이에 일관성이 필요합니다.\n\n[Priority Actions]\n1. 구체적인 서비스 내용, 가격 정보, 이용 방법 등을 추가하세요.\n2. FAQ, 비교 표, 구체적인 서비스 내용 등을 추가하세요.\n3. HTML 본문과 JSON-LD, 메타 태그 사이에 일관성을 유지하세요."
+    }
+  },
+  {
+    "url": "https://soomgo.com",
+    "Total Score": 76.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 76.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '숨고'라는 이름으로, 다양한 서비스와 전문가 연결을 제공하는 것을 주목적으로 하고 있습니다.\n- 강점: 명확한 브랜드명과 목적이 제시되어 있습니다.\n- 개선점: 더 구체적인 서비스 범위나 특징을 설명하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 메타데이터에서는 여러 서비스를 비교하고 전문가를 연결할 수 있는 기능을 언급하고 있지만, 구조화된 내용이나 FAQ 등은 없습니다.\n- 강점: 주요 기능과 목적이 간단히 설명되어 있습니다.\n- 개선점: FAQ, 비교 테이블, 구체적인 사용 사례 등을 추가하여 내용을 구조화해야 합니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 14.0 / 20.0\n- 요약: 메타데이터에서 연락처 정보와 URL이 제공되지만, 작성자나 출판 날짜 등의 신뢰성 증명 요소는 없습니다.\n- 강점: 연락처 정보와 URL이 제공됩니다.\n- 개선점: 작성자, 출판 날짜, 업데이트 날짜 등의 정보를 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD에는 브랜드 정보와 연락처 정보가 포함되어 있지만, HTML 내용과의 완벽한 일치는 아닙니다.\n- 강점: JSON-LD와 메타데이터가 일부 일치합니다.\n- 개선점: JSON-LD와 HTML 내용 사이의 일치를 더욱 강화해야 합니다.\n\n[Category 5: Domain-Specific Completeness (ecommerce)]\n- 점수: 11.0 / 15.0\n- 요약: eCommerce 페이지로서, 제품 정보나 가격, 배송 정보 등은 부족합니다.\n- 강점: 브랜드와 목적이 명확하게 제시되어 있습니다.\n- 개선점: 제품 정보, 가격, 배송 정보 등을 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 메타데이터에서 연락처 정보와 URL이 제공되지만, 최근 업데이트 날짜는 없습니다.\n- 강점: 연락처 정보와 URL이 제공됩니다.\n- 개선점: 최근 업데이트 날짜를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. 구조화된 내용이 부족합니다.\n2. 작성자나 출판 날짜 등의 신뢰성 증명 요소가 없습니다.\n3. 제품 정보, 가격, 배송 정보 등이 부족합니다.\n\n[Priority Actions]\n1. FAQ, 비교 테이블, 구체적인 사용 사례 등을 추가하세요.\n2. 작성자, 출판 날짜, 업데이트 날짜 등의 정보를 추가하세요.\n3. 제품 정보, 가격, 배송 정보 등을 추가하세요."
+    }
+  },
+  {
+    "url": "https://www.gawooglobal.com",
+    "Total Score": 62.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 62.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '(주)가우글로벌'이라는 기업에 대해 설명하고 있습니다.\n- 강점: 주식회사 가우글로벌이라는 기업이 명확하게 표시되어 있습니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위를 명시하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: 페이지는 여러 서비스를 다루고 있지만, 구조화된 질문-답변 형식은 없습니다.\n- 강점: 다양한 서비스들이 나열되어 있어 사용자가 관심 있는 내용을 쉽게 찾을 수 있습니다.\n- 개선점: FAQ나 비교 표 등의 구조화된 정보 제공이 필요합니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 8.0 / 20.0\n- 요약: 페이지에는 회사 이름과 일부 서비스 정보가 포함되어 있지만, 출처나 업데이트 날짜 등은 없습니다.\n- 강점: 회사 이름과 주요 서비스가 명확히 표시되어 있습니다.\n- 개선점: 출처, 업데이트 날짜, 책임 있는 개인 또는 조직 등을 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: JSON-LD 데이터가 없으며, meta 태그와 HTML 내용 사이에 일관성이 부족합니다.\n- 강점: meta 태그는 기본적인 정보를 제공하고 있습니다.\n- 개선점: JSON-LD 데이터를 추가하고, meta 태그와 HTML 내용 간의 일관성을 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 11.0 / 15.0\n- 요약: 일반적인 기업 정보 페이지로서 필요한 대부분의 정보가 포함되어 있습니다.\n- 강점: 회사 이름, 주요 서비스 등 기본적인 정보가 잘 정리되어 있습니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위, 연락처 정보 등을 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 7.0 / 10.0\n- 요약: 페이지는 최근의 정보를 제공하지만, 정확한 업데이트 날짜는 명시되지 않았습니다.\n- 강점: 최근의 정보를 제공하고 있습니다.\n- 개선점: 정확한 업데이트 날짜를 명시해야 합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터가 없어 Schema-HTML Alignment 점수가 낮습니다.\n2. FAQ나 비교 표 등의 구조화된 정보 제공이 부족합니다.\n3. 출처, 업데이트 날짜, 책임 있는 개인 또는 조직 등을 추가해야 합니다.\n\n[Priority Actions]\n1. JSON-LD 데이터를 추가하고, meta 태그와 HTML 내용 간의 일관성을 유지하세요.\n2. FAQ나 비교 표 등의 구조화된 정보 제공을 고려하세요.\n3. 출처, 업데이트 날짜, 책임 있는 개인 또는 조직 등을 추가하세요."
+    }
+  },
+  {
+    "url": "https://www.i-boss.co.kr",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '아이보스'라는 온라인 마케팅 포털에 대한 내용을 다룹니다.\n- 강점: 명확하게 '아이보스'라는 이름과 온라인 마케팅 포털이라는 주제를 나타냅니다.\n- 개선점: 주제와 관련된 구체적인 서비스 범위나 특징을 좀 더 명확히 설명하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 16.0 / 25.0\n- 요약: 페이지는 다양한 서비스와 교육 과정에 대해 설명하고 있지만, 구조적으로 잘 정렬되지 않았습니다.\n- 강점: 여러 서비스와 교육 과정이 나열되어 있어 사용자가 필요한 정보를 찾을 수 있습니다.\n- 개선점: FAQ 형식이나 비교 표 등을 추가하여 구조를 개선하면 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지에는 일부 연락처 정보와 URL이 포함되어 있지만, 구체적인 출처나 업데이트 날짜는 없습니다.\n- 강점: 연락처 정보와 URL이 포함되어 있어 기본적인 신뢰성을 갖추고 있습니다.\n- 개선점: 출처나 업데이트 날짜 등의 정보를 추가하면 더욱 신뢰성이 높아질 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 12.0 / 15.0\n- 요약: JSON-LD와 HTML 내용 간 일관성이 유지되지만, 일부 정보가 누락되었거나 불완전합니다.\n- 강점: Breadcrumb 리스트와 Organization 정보가 일관되게 표시됩니다.\n- 개선점: JSON-LD에 있는 모든 정보가 실제 HTML에서도 반영될 필요가 있습니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 온라인 마케팅 포털로서 필요한 대부분의 정보를 제공하지만, 구체적인 서비스 범위나 가격 등은 부족합니다.\n- 강점: 온라인 마케팅 포털로서 필요한 기본 정보를 제공합니다.\n- 개선점: 구체적인 서비스 범위, 가격, 업무 시간 등 추가 정보를 제공하면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 페이지에는 최근 게시물과 이벤트 정보가 포함되어 있지만, 구체적인 날짜 정보는 부족합니다.\n- 강점: 최근 게시물과 이벤트 정보가 포함되어 있어 현재 상태를 어느 정도 보여줍니다.\n- 개선점: 구체적인 날짜 정보를 추가하면 신뢰성이 더욱 높아질 것입니다.\n\n[Top 3 Failure Reasons]\n1. 구체적인 서비스 범위나 가격 정보 부족\n2. FAQ 형식이나 비교 표 등 구조적 개선 필요\n3. 출처나 업데이트 날짜 등의 정보 부족\n\n[Priority Actions]\n1. 구체적인 서비스 범위와 가격 정보 추가\n2. FAQ 형식이나 비교 표 등 구조적 개선\n3. 출처나 업데이트 날짜 등의 정보 추가"
+    }
+  },
+  {
+    "url": "https://www.kontactic.com/ko",
+    "Total Score": 88.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 88.0/100.0 (Band: strong, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: The page clearly identifies Kontactic as a company providing operational support for international brands entering the Korean market.\n- 강점: The brand name 'Kontactic' and their role in supporting international brands are consistently mentioned throughout the page.\n- 개선점: More explicit repetition of the main service offerings would improve clarity.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 22.0 / 25.0\n- 요약: The page has a clear structure with headings, FAQs, and specific plans for different business needs.\n- 강점: The site uses headings, lists, and structured content to provide clear answers to potential customers.\n- 개선점: Adding more direct comparisons between different plans and pricing details would enhance answerability.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 17.0 / 20.0\n- 요약: The page provides some evidence such as customer testimonials, certifications, and regulatory compliance information.\n- 강점: Certifications from government agencies like KOITA and NICE D&B add credibility.\n- 개선점: Including more detailed case studies or specific examples of successful collaborations would strengthen evidence.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 14.0 / 15.0\n- 요약: There is consistent alignment between visible HTML content and JSON-LD schema.\n- 강점: Most key entities and metadata are accurately represented in both HTML and JSON-LD.\n- 개선점: Ensure all critical fields like phone number and email are present in both places.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 13.0 / 15.0\n- 요약: The page covers most aspects relevant to a general e-commerce consulting agency.\n- 강점: Comprehensive coverage of services, target audience, and competitive advantages.\n- 개선점: Include more specific metrics like revenue growth rates or client success stories.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: The page mentions recent developments and current capabilities but lacks specific dates.\n- 강점: Recent updates on services and partnerships demonstrate ongoing operations.\n- 개선점: Add specific date ranges or update frequencies to enhance freshness signals.\n\n[Top 3 Failure Reasons]\n1. Lack of specific pricing details within each plan.\n2. Limited inclusion of concrete metrics and case studies.\n3. Absence of specific date ranges or update frequencies.\n\n[Priority Actions]\n1. Provide detailed pricing structures for each plan.\n2. Include more concrete customer success stories and metrics.\n3. Update the page with fresh data and specific date ranges."
+    }
+  },
+  {
+    "url": "https://www.sbiz24.kr",
+    "Total Score": 0.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 0.0/100.0 (Band: very_weak, AI Citation Potential: very_low)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 0.0 / 15.0\n- 요약: 페이지의 주요 엔티티와 주제가 명확하지 않으며, 페이지의 목적이나 내용이 잘 정의되지 않았습니다.\n- 강점: \n- 개선점: 주요 엔티티와 주제를 명확하게 표현해야 합니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 0.0 / 25.0\n- 요약: 페이지는 구조화된 정보나 질문에 대한 답변 형태로 구성되어 있지 않으며, 사용자에게 유용한 정보를 제공하지 않습니다.\n- 강점: \n- 개선점: 구조화된 정보와 질문에 대한 답변이 포함되어야 합니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 0.0 / 20.0\n- 요약: 페이지에는 신뢰할 수 있는 출처나 통계, 데이터 등과 같은 구체적인 증거가 없습니다.\n- 강점: \n- 개선점: 신뢰할 수 있는 출처, 통계, 데이터 등을 포함해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 0.0 / 15.0\n- 요약: JSON-LD가 존재하지 않아, HTML과의 일치 여부를 평가할 수 없습니다.\n- 강점: \n- 개선점: JSON-LD를 추가하고, HTML 내용과 일치하도록 설정해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 0.0 / 15.0\n- 요약: 일반 페이지로서 특정 도메인의 필요한 정보가 부족합니다.\n- 강점: \n- 개선점: 필요한 정보를 포함시키고, 페이지의 목적을 명확히 해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 0.0 / 10.0\n- 요약: 페이지에는 최신 정보나 운영 상태에 대한 신호가 없습니다.\n- 강점: \n- 개선점: 최신 정보와 운영 상태를 표시해야 합니다.\n\n[Global Caps Applied]\n- html_text_empty_or_nearly_empty: 페이지의 HTML 내용이 거의 비어 있습니다.\n\n[Top 3 Failure Reasons]\n1. 페이지의 주요 엔티티와 주제가 명확하지 않음\n2. 구조화된 정보와 질문에 대한 답변이 없음\n3. 신뢰할 수 있는 출처나 통계, 데이터 등의 구체적인 증거가 없음\n\n[Priority Actions]\n1. 주요 엔티티와 주제를 명확하게 표현하세요.\n2. 구조화된 정보와 질문에 대한 답변을 포함시키세요.\n3. 신뢰할 수 있는 출처, 통계, 데이터 등을 포함시키세요."
+    }
+  },
+  {
+    "url": "https://www.widerplanet.com",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '아티스트컴퍼니'라는 이름으로 빅데이터 기반의 퍼포먼스 타겟팅 광고 플랫폼을 제공하는 업체임을 명확하게 설명하고 있습니다.\n- 강점: 주요 업무와 서비스 범위를 명확하게 설명하고 있습니다.\n- 개선점: 더 구체적인 업체 정보나 위치 정보를 추가하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있으며, 각 섹션마다 구체적인 내용을 제공하고 있습니다. 그러나 FAQ나 비교 테이블 같은 구조적 요소는 부족합니다.\n- 강점: 다양한 섹션이 있어 사용자가 필요한 정보를 찾기 쉬운 구조를 가지고 있습니다.\n- 개선점: FAQ나 비교 테이블 같은 구조적 요소를 추가하면 더 좋은 답변 준비 상태가 될 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지는 일부 정보를 제공하고 있지만, 출처나 업데이트 날짜 등의 신뢰성 증명 요소는 부족합니다.\n- 강점: 주요 업무와 서비스 범위에 대한 정보를 제공하고 있습니다.\n- 개선점: 출처, 업데이트 날짜 등의 신뢰성 증명 요소를 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: JSON-LD가 존재하지 않으며, meta 태그와 HTML 내용 사이에는 일관성이 부족합니다.\n- 강점: meta 태그가 존재하며, 기본적인 정보를 제공하고 있습니다.\n- 개선점: JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관되게 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: 페이지는 일반적인 웹 페이지로서 필요한 대부분의 정보를 제공하고 있지만, 구체적인 업체 정보나 위치 정보는 부족합니다.\n- 강점: 주요 업무와 서비스 범위에 대한 정보를 제공하고 있습니다.\n- 개선점: 구체적인 업체 정보나 위치 정보를 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지는 최근의 정보를 제공하고 있지만, 업데이트 날짜 등의 신뢰성 증명 요소는 부족합니다.\n- 강점: 최근의 정보를 제공하고 있습니다.\n- 개선점: 업데이트 날짜 등의 신뢰성 증명 요소를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD가 존재하지 않아 Schema-HTML Alignment 점수가 낮습니다.\n2. FAQ나 비교 테이블 같은 구조적 요소가 부족하여 Answerability & Content Structure 점수가 낮습니다.\n3. 출처나 업데이트 날짜 등의 신뢰성 증명 요소가 부족하여 Evidence & Citation Readiness 점수가 낮습니다.\n\n[Priority Actions]\n1. JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관되게 유지하세요.\n2. FAQ나 비교 테이블 같은 구조적 요소를 추가하세요.\n3. 출처, 업데이트 날짜 등의 신뢰성 증명 요소를 추가하세요."
+    }
+  },
+  {
+    "url": "https://adriel.com/ko",
+    "Total Score": 75.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 75.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '아드리엘'이라는 브랜드와 '마케팅 인텔리전스'라는 주제를 명확하게 설명하고 있습니다.\n- 강점: 브랜드명과 주요 서비스가 명확히 표시되어 있습니다.\n- 개선점: 더 구체적인 업무 범위나 특징을 추가하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 다양한 서비스와 관련된 정보를 제공하지만, 구조화된 질문-답변 형식이나 FAQ는 없습니다.\n- 강점: 여러 서비스와 기능이 잘 설명되어 있습니다.\n- 개선점: FAQ나 자주 묻는 질문 섹션이 있으면 더 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 12.0 / 20.0\n- 요약: 페이지에는 일부 연락처 정보와 기술 스펙트럼이 포함되어 있지만, 구체적인 출처나 참고 자료는 부족합니다.\n- 강점: 연락처 정보와 기술 스펙트럼이 제공됩니다.\n- 개선점: 구체적인 출처나 참고 자료를 추가하면 좋을 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD와 메타 태그는 브랜드 정보를 일관되게 제공하지만, HTML 내용과의 완벽한 일치는 아닙니다.\n- 강점: JSON-LD와 메타 태그는 일관되게 제공됩니다.\n- 개선점: HTML 내용과 JSON-LD 사이의 일치를 더욱 강화해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: 일반적인 웹페이지로서 필요한 기본 정보는 대부분 제공되고 있지만, 특정 분야에서 요구되는 세부 정보는 부족합니다.\n- 강점: 기본적인 정보는 제공됩니다.\n- 개선점: 특정 분야에서 필요하는 세부 정보를 추가하면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지에는 최근 업데이트 날짜나 운영 상태에 대한 신뢰할 수 있는 신호가 부족합니다.\n- 강점: 기본적인 정보는 제공됩니다.\n- 개선점: 최근 업데이트 날짜나 운영 상태에 대한 신뢰할 수 있는 신호를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. FAQ나 자주 묻는 질문 섹션이 없어 답변 가능성이 제한적입니다.\n2. 구체적인 출처나 참고 자료가 부족하여 신뢰성을 높일 수 없습니다.\n3. HTML 내용과 JSON-LD 사이의 일치가 완벽하지 않습니다.\n\n[Priority Actions]\n1. FAQ나 자주 묻는 질문 섹션을 추가하세요.\n2. 구체적인 출처나 참고 자료를 추가하세요.\n3. HTML 내용과 JSON-LD 사이의 일치를 강화하세요."
+    }
+  },
+  {
+    "url": "https://adriel.com/kr",
+    "Total Score": 72.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 72.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '아드리엘'이라는 브랜드와 관련된 AI 에이전트 기반 마케팅 인텔리전스 솔루션을 제공하는 것으로 명확히 설명하고 있습니다.\n- 강점: 브랜드 이름과 주요 서비스가 명확하게 표시되어 있습니다.\n- 개선점: 더 구체적인 서비스 범위나 특징을 추가하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 다양한 서비스와 기능을 설명하고 있지만, 구조화된 질문-답변 형식이나 FAQ 섹션이 없습니다.\n- 강점: 여러 서비스와 기능이 잘 설명되어 있습니다.\n- 개선점: FAQ 섹션 또는 질문-답변 형식을 추가하여 내용을 더욱 구조화할 필요가 있습니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 12.0 / 20.0\n- 요약: 페이지에는 일부 정보와 연락처가 포함되어 있지만, 출처나 업데이트 날짜 등의 신뢰성 증명 요소가 부족합니다.\n- 강점: 회사 정보와 연락처가 제공됩니다.\n- 개선점: 출처, 업데이트 날짜 등 추가적인 신뢰성 증명 요소를 제공해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD와 메타 태그는 브랜드 정보를 일관되게 제공하지만, HTML 본문과의 연관성이 완벽하지 않습니다.\n- 강점: JSON-LD와 메타 태그는 일관되게 제공됩니다.\n- 개선점: HTML 본문과 JSON-LD 사이의 연관성을 더욱 강화해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: 일반적인 웹페이지로서 필요한 기본 정보는 대부분 제공되고 있지만, 특정 서비스에 대한 자세한 정보가 부족합니다.\n- 강점: 브랜드 정보와 서비스 범위가 제공됩니다.\n- 개선점: 각 서비스에 대한 자세한 정보와 예제를 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 5.0 / 10.0\n- 요약: 페이지에는 최근 업데이트나 운영 상태에 대한 정보가 부족합니다.\n- 강점: 회사 정보와 연락처가 제공됩니다.\n- 개선점: 최근 업데이트나 운영 상태에 대한 정보를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. FAQ 섹션 또는 질문-답변 형식이 없음\n2. 출처, 업데이트 날짜 등의 신뢰성 증명 요소가 부족함\n3. HTML 본문과 JSON-LD 사이의 연관성이 완벽하지 않음\n\n[Priority Actions]\n1. FAQ 섹션 또는 질문-답변 형식을 추가하여 내용을 구조화하세요.\n2. 출처, 업데이트 날짜 등을 추가하여 신뢰성을 높이세요.\n3. HTML 본문과 JSON-LD 사이의 연관성을 강화하세요."
+    }
+  },
+  {
+    "url": "https://bankit.kr/program/09",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지의 주요 주제는 '은행(Bank)을 통해 나눔을 잇(it)'라는 뱅크잇의 사회공헌 플랫폼입니다.\n- 강점: 뱅크잇이라는 명확한 브랜드와 목적이 언급되어 있습니다.\n- 개선점: 더 구체적인 프로그램 내용이나 대상이 추가되면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있지만, 구조적으로 질문에 대한 답변이 부족합니다.\n- 강점: 여러 섹션이 있어 사용자가 필요한 정보를 찾기 쉽습니다.\n- 개선점: FAQ나 비교 표 등 구조적인 답변 형식을 포함하면 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 8.0 / 20.0\n- 요약: 페이지는 뱅크잇의 목적과 기능을 설명하지만, 구체적인 데이터나 출처는 없습니다.\n- 강점: 뱅크잇의 목적과 기능이 명확하게 설명되어 있습니다.\n- 개선점: 구체적인 데이터나 출처를 제공하면 신뢰성을 높일 수 있습니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: JSON-LD가 존재하지 않으며, meta 태그와 HTML 내용 사이에 일관성이 부족합니다.\n- 강점: meta 태그는 기본적인 정보를 제공합니다.\n- 개선점: JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관성 있게 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: 페이지는 일반적인 정보를 제공하지만, 특정 도메인에 대한 구체적인 정보는 부족합니다.\n- 강점: 뱅크잇의 목적과 기능이 잘 설명되어 있습니다.\n- 개선점: 특정 도메인에 대한 구체적인 정보를 추가하면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지는 현재 운영 중인지 확인할 수 있는 신호가 부족합니다.\n- 강점: 페이지는 현재 운영 중인 것으로 보입니다.\n- 개선점: 업데이트 날짜나 운영 상태를 명확히 표시하면 좋을 것입니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD가 없어 Schema-HTML Alignment 점수가 낮습니다.\n2. 구체적인 데이터나 출처가 부족하여 Evidence & Citation Readiness 점수가 낮습니다.\n3. FAQ나 비교 표 등의 구조적인 답변 형식이 부족하여 Answerability & Content Structure 점수가 낮습니다.\n\n[Priority Actions]\n1. JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관성 있게 유지하세요.\n2. 구체적인 데이터나 출처를 제공하세요.\n3. FAQ나 비교 표 등을 포함하여 구조적인 답변 형식을 추가하세요."
+    }
+  },
+  {
+    "url": "https://clconsult.co.kr",
+    "Total Score": 66.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 66.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '씨엘컨설팅'이라는 조직에 대한 정보를 제공하며, 주요 서비스와 목표를 명확히 설명하고 있습니다.\n- 강점: 주식회사 씨엘컨설팅이라는 조직과 그 목표가 명확하게 표현되어 있습니다.\n- 개선점: 더 구체적인 업계나 특정 서비스 영역에 대해 설명하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있으며, 각 섹션마다 구체적인 내용이 포함되어 있습니다. 그러나 FAQ나 비교 표 등의 구조화된 형태는 없습니다.\n- 강점: 여러 섹션으로 구성되어 있어 사용자가 쉽게 찾을 수 있는 정보를 제공합니다.\n- 개선점: FAQ나 비교 표 같은 구조화된 형태로 정보를 제공하면 더 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 16.0 / 20.0\n- 요약: 페이지는 다양한 프로젝트와 고객과의 경험을 통해 신뢰성을 보여줍니다. 그러나 구체적인 데이터나 출처는 부족합니다.\n- 강점: 다양한 프로젝트와 고객과의 경험을 통해 신뢰성을 보여줍니다.\n- 개선점: 구체적인 데이터나 출처를 추가하면 더욱 신뢰성이 높아질 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD에는 'Organization', 'ImageObject' 타입이 포함되어 있지만, HTML 내용과 완벽하게 일치하지 않습니다.\n- 강점: JSON-LD에는 기본적인 정보들이 포함되어 있습니다.\n- 개선점: JSON-LD와 HTML 내용이 완벽하게 일치하도록 수정해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 일반적으로 '컨설팅' 관련 정보를 제공하지만, 특정 도메인의 전문성이나 세부사항은 부족합니다.\n- 강점: 컨설팅 관련 정보를 제공하고 있습니다.\n- 개선점: 특정 도메인의 전문성이나 세부사항을 추가하면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 7.0 / 10.0\n- 요약: 페이지는 최근의 활동과 업데이트 정보를 제공하지만, 구체적인 날짜나 시간 정보는 부족합니다.\n- 강점: 최근의 활동과 업데이트 정보를 제공하고 있습니다.\n- 개선점: 구체적인 날짜나 시간 정보를 추가하면 좋을 것입니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD와 HTML 내용의 불일치\n2. 구체적인 데이터나 출처의 부족\n3. FAQ나 비교 표 같은 구조화된 형태의 부족\n\n[Priority Actions]\n1. JSON-LD와 HTML 내용을 일치시키세요.\n2. 구체적인 데이터나 출처를 추가하세요.\n3. FAQ나 비교 표 같은 구조화된 형태로 정보를 제공하세요."
+    }
+  },
+  {
+    "url": "https://fastcampus.co.kr",
+    "Total Score": 62.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 62.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '패스트캠퍼스'라는 교육 서비스 제공업체에 대한 정보를 제공하며, 주요 주제는 '6월 1일 전 카테고리 대상 최대 15% 인상 확정'입니다.\n- 강점: 주요 주제와 관련된 내용이 명확하게 제시되어 있습니다.\n- 개선점: 더 구체적인 교육 분야나 서비스 범위에 대한 설명이 필요합니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 가격 인상 안내 및 관련 날짜를 포함하고 있지만, 구조화된 질문-답변 형식이나 FAQ 섹션이 없습니다.\n- 강점: 주요 정보가 명확하게 표시되어 있습니다.\n- 개선점: 질문-답변 형식이나 FAQ 섹션을 추가하여 사용자가 쉽게 이해할 수 있도록 하는 것이 좋습니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지는 가격 인상 안내와 관련된 정보를 제공하지만, 작성자나 출처, 업데이트 날짜 등의 신뢰성 증명 요소가 부족합니다.\n- 강점: 주요 정보가 제공됩니다.\n- 개선점: 작성자, 출처, 업데이트 날짜 등 필요한 신뢰성 증명 요소를 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: JSON-LD 데이터가 존재하지 않으며, meta 태그와 HTML 내용 간 일관성이 부족합니다.\n- 강점: 메타 태그가 일부 존재합니다.\n- 개선점: JSON-LD 데이터를 추가하고, 메타 태그와 HTML 내용 간 일관성을 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 11.0 / 15.0\n- 요약: 페이지는 교육 서비스 제공업체로서 필요한 기본 정보를 제공하지만, 특정 교육 분야나 서비스 범위에 대한 구체적인 정보가 부족합니다.\n- 강점: 주요 정보가 제공됩니다.\n- 개선점: 특정 교육 분야나 서비스 범위에 대한 구체적인 정보를 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 7.0 / 10.0\n- 요약: 페이지는 가격 인상 안내와 관련된 최신 정보를 제공하지만, 업데이트 날짜나 운영 상태에 대한 구체적인 정보가 부족합니다.\n- 강점: 주요 정보가 제공됩니다.\n- 개선점: 업데이트 날짜나 운영 상태에 대한 구체적인 정보를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터가 없음\n2. 질문-답변 형식이나 FAQ 섹션 부재\n3. 작성자, 출처, 업데이트 날짜 등의 신뢰성 증명 요소 부재\n\n[Priority Actions]\n1. JSON-LD 데이터 추가\n2. 질문-답변 형식이나 FAQ 섹션 추가\n3. 작성자, 출처, 업데이트 날짜 등 신뢰성 증명 요소 추가"
+    }
+  },
+  {
+    "url": "https://indentcorp.com",
+    "Total Score": 25.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 25.0/100.0 (Band: very_weak, AI Citation Potential: very_low)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 'Indent Corporation'에 대한 정보를 제공하며, 'Jump in', 'Foundational Mission', 'Strategic Mission' 등의 섹션으로 구성되어 있습니다.\n- 강점: 주요 엔티티와 주제가 명확하게 표현되어 있습니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위를 설명하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 3.0 / 25.0\n- 요약: 페이지는 구조화된 질문-답변 형식이나 FAQ가 없습니다. 그러나 'Mission'이라는 섹션이 있어 일부 정보를 찾을 수 있습니다.\n- 강점: 'Mission' 섹션은 특정 목표나 방향성을 이해할 수 있도록 도움이 됩니다.\n- 개선점: FAQ, 비교 표, 목록 등이 추가되면 더 많은 사용자 질문에 답변할 수 있을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 2.0 / 20.0\n- 요약: 작성자나 출판 날짜, 업데이트 날짜 등의 신뢰성 증명 요소가 없습니다.\n- 강점: 페이지는 기본적으로 존재하는 엔티티에 대해 간략히 설명하고 있습니다.\n- 개선점: 작성자, 출판 날짜, 업데이트 날짜 등을 포함시키면 더 신뢰성이 높아질 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: JSON-LD 데이터가 없으며, 메타 태그와 HTML 내용 사이에는 일관성이 부족합니다.\n- 강점: 메타 태그는 이미지 URL을 제공하고 있습니다.\n- 개선점: JSON-LD 데이터를 추가하고, 메타 태그와 HTML 내용을 일치시켜야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 5.0 / 15.0\n- 요약: 일반적인 기업 정보를 제공하지만, 구체적인 제품, 서비스, 위치 등의 정보가 부족합니다.\n- 강점: 회사 이름과 mission이 명확하게 표시되고 있습니다.\n- 개선점: 제품, 서비스, 위치, 연락처 정보 등을 추가하면 더 완전해질 것입니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터가 없어 Schema-HTML Alignment 점수가 낮습니다.\n2. FAQ, 비교 표, 목록 등이 없어 Answerability & Content Structure 점수가 낮습니다.\n3. 작성자, 출판 날짜, 업데이트 날짜 등의 신뢰성 증명 요소가 없어 Evidence & Citation Readiness 점수가 낮습니다.\n\n[Priority Actions]\n1. JSON-LD 데이터를 추가하고, 메타 태그와 HTML 내용을 일치시킵니다.\n2. FAQ, 비교 표, 목록 등을 추가하여 Answerability & Content Structure를 향상시킵니다.\n3. 작성자, 출판 날짜, 업데이트 날짜 등을 포함시키세요."
+    }
+  },
+  {
+    "url": "https://soho.cafe24.com/Consult",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: The page discusses Cafe24's business consulting services, focusing on online entrepreneurship success.\n- 강점: Clear identification of the main entity (Cafe24) and topic (business consulting).\n- 개선점: More specific details about the consulting services would improve clarity.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: The page has some structure but lacks direct answers to user questions and lacks FAQs or comparison tables.\n- 강점: Basic structure with headings and sections.\n- 개선점: Include more direct answers, FAQs, and structured content like comparison tables.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 14.0 / 20.0\n- 요약: Some evidence provided through testimonials and service descriptions, but lacks detailed citations and references.\n- 강점: Testimonials and service descriptions provide basic credibility.\n- 개선점: Add more detailed citations, references, and specific data to enhance credibility.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: No JSON-LD present, leading to a lack of schema alignment.\n- 강점: None.\n- 개선점: Add appropriate JSON-LD to align with visible HTML content.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: The page covers essential aspects of Cafe24's business consulting services but lacks specific details and operational information.\n- 강점: Covers key aspects of the consulting services.\n- 개선점: Provide more specific details such as pricing, operating hours, and contact information.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: Recent updates are implied by current service offerings and testimonials, but no explicit date information.\n- 강점: Current service offerings suggest recent activity.\n- 개선점: Include explicit dates and update frequencies to enhance freshness signals.\n\n[Top 3 Failure Reasons]\n1. Lack of JSON-LD and schema alignment.\n2. Insufficient direct answers and structured content.\n3. Missing detailed citations and references.\n\n[Priority Actions]\n1. Add JSON-LD to align with visible HTML content.\n2. Include more direct answers, FAQs, and structured content.\n3. Enhance credibility with detailed citations and references."
+    }
+  },
+  {
+    "url": "https://ssjum.com",
+    "Total Score": 81.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 81.0/100.0 (Band: strong, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '소중함인사이트 All-Agent'라는 이름으로, 7가지 에이전트와 관련된 서비스를 제공한다.\n- 강점: 명확한 브랜드 이름과 목적이 설명되어 있다.\n- 개선점: 각 에이전트의 구체적인 역할과 범위에 대한 설명이 좀 더 필요하다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 17.0 / 25.0\n- 요약: 페이지는 다양한 서비스와 에이전트에 대해 설명하고 있지만, 구조적으로 질문-답변 형식이나 FAQ가 부족하다.\n- 강점: 여러 서비스와 에이전트에 대한 간략한 설명이 포함되어 있다.\n- 개선점: FAQ나 질문-답변 형식을 추가하여 내용을 더욱 구조화해야 한다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 14.0 / 20.0\n- 요약: 페이지는 소속 조직, 연락처, 그리고 일부 서비스에 대한 정보를 제공하지만, 구체적인 출처나 업데이트 날짜가 없다.\n- 강점: 소속 조직과 연락처 정보가 포함되어 있다.\n- 개선점: 구체적인 출처나 업데이트 날짜를 추가해야 한다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD와 메타 태그는 페이지의 주요 정보를 잘 반영하고 있지만, 일부 필드가 누락되었거나 불완전하다.\n- 강점: JSON-LD와 메타 태그는 페이지의 주요 정보를 잘 반영하고 있다.\n- 개선점: 누락된 필드를 추가하고, 불완전한 정보를 수정해야 한다.\n\n[Category 5: Domain-Specific Completeness (ecommerce)]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 소상공인 및 중소기업을 대상으로 하는 다양한 서비스를 제공하며, 그에 따른 특정 정보를 제공하고 있지만, 구체적인 서비스 범위나 가격 등이 부족하다.\n- 강점: 다양한 서비스와 에이전트에 대한 정보가 포함되어 있다.\n- 개선점: 구체적인 서비스 범위, 가격, 또는 사용 가능한 옵션 등을 추가해야 한다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 페이지는 최근의 정보를 제공하고 있지만, 구체적인 업데이트 날짜가 없으며, 운영 상태를 나타내는 신호가 부족하다.\n- 강점: 최근의 정보를 제공하고 있다.\n- 개선점: 구체적인 업데이트 날짜와 운영 상태를 나타내는 신호를 추가해야 한다.\n\n[Top 3 Failure Reasons]\n1. 구체적인 서비스 범위나 가격 등의 정보가 부족하다.\n2. FAQ나 질문-답변 형식이 부족하다.\n3. 구체적인 출처나 업데이트 날짜가 없다.\n\n[Priority Actions]\n1. FAQ나 질문-답변 형식을 추가하여 내용을 더욱 구조화해야 한다.\n2. 구체적인 서비스 범위, 가격, 또는 사용 가능한 옵션 등을 추가해야 한다.\n3. 구체적인 출처나 업데이트 날짜를 추가해야 한다."
+    }
+  },
+  {
+    "url": "https://www.bankit.kr/program/09",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '은행(Bank)을 통해 나눔을 잇(it)'라는 이름으로, 뱅크잇이라는 사회공헌 플랫폼의 프로그램을 설명하고 있습니다.\n- 강점: 명확한 제목과 설명이 있으며, 뱅크잇이라는 플랫폼의 목적과 범위가 잘 설명되어 있습니다.\n- 개선점: 더 구체적인 프로그램 내용이나 대상이 추가되면 좋을 것 같습니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있지만, 구조적으로 질문-답변 형식이나 FAQ와 같은 직접적인 답변 구조는 없습니다.\n- 강점: 주요 정보들이 잘 정리되어 있어 이해하기 쉽습니다.\n- 개선점: FAQ나 비교 표 등의 구조를 추가하면 더 많은 사용자에게 도움이 될 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 8.0 / 20.0\n- 요약: 페이지는 뱅크잇이라는 플랫폼의 목적과 범위를 설명하고 있지만, 구체적인 데이터나 출처는 제공되지 않습니다.\n- 강점: 플랫폼의 목적과 범위가 명확하게 설명되어 있습니다.\n- 개선점: 구체적인 데이터나 출처를 추가하면 신뢰성을 높일 수 있을 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: JSON-LD가 존재하지 않으며, meta 태그와 HTML 내용 사이에 일관성이 부족합니다.\n- 강점: meta 태그는 일부 정보를 제공하고 있습니다.\n- 개선점: JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관성 있게 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: 페이지는 뱅크잇이라는 플랫폼의 목적과 범위를 설명하고 있지만, 구체적인 데이터나 출처는 제공되지 않습니다.\n- 강점: 플랫폼의 목적과 범위가 명확하게 설명되어 있습니다.\n- 개선점: 구체적인 데이터나 출처를 추가하면 신뢰성을 높일 수 있을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지는 현재 운영 중인지 확인할 수 있는 구체적인 날짜나 업데이트 정보가 없습니다.\n- 강점: 플랫폼의 목적과 범위가 명확하게 설명되어 있습니다.\n- 개선점: 최근 업데이트 날짜나 운영 상태를 표시하면 신뢰성을 높일 수 있을 것입니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD가 없어 Schema-HTML Alignment 점수가 낮습니다.\n2. 구체적인 데이터나 출처가 부족하여 Evidence & Citation Readiness 점수가 낮습니다.\n3. FAQ나 비교 표 등의 구조가 부족하여 Answerability & Content Structure 점수가 낮습니다.\n\n[Priority Actions]\n1. JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관성 있게 유지하세요.\n2. 구체적인 데이터나 출처를 추가하세요.\n3. FAQ나 비교 표 등의 구조를 추가하세요."
+    }
+  },
+  {
+    "url": "https://www.dimaco.co.kr",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지의 주요 엔터티와 주제는 '(주)디마코코리아'로 명확히 표시되어 있습니다.\n- 강점: 주식회사 디마코코리아라는 기업에 대한 정보가 명확하게 제공됩니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위에 대한 설명이 추가되면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: 페이지는 구조화된 내용 없이 대부분의 텍스트가 JSON-LD나 메타 태그에 포함되어 있거나 중복되는 정보입니다.\n- 강점: 기본적인 메타 태그 정보가 존재합니다.\n- 개선점: 구조화된 내용과 사용 가능한 답변이 포함된 HTML 본문이 필요합니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지에는 필요한 모든 출처나 신뢰성 증명 정보가 없습니다.\n- 강점: 기본적인 메타 태그 정보가 존재합니다.\n- 개선점: 작성자, 출판 날짜, 업데이트 날짜 등의 정보가 필요합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: JSON-LD 데이터가 존재하지만, 실제 HTML 내용과 일치하지 않습니다.\n- 강점: JSON-LD 데이터가 존재합니다.\n- 개선점: JSON-LD 데이터가 실제 HTML 내용과 일치하도록 수정해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 8.0 / 15.0\n- 요약: 일반적인 웹 페이지로서 필요한 기본 정보는 제공되지만, 특정 도메인에 대한 구체적인 정보가 부족합니다.\n- 강점: 기본적인 메타 태그 정보가 존재합니다.\n- 개선점: 특정 도메인의 구체적인 정보와 서비스 범위에 대한 설명이 필요합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 7.0 / 10.0\n- 요약: 페이지에는 최근 업데이트 날짜나 운영 상태에 대한 정보가 없습니다.\n- 강점: 기본적인 메타 태그 정보가 존재합니다.\n- 개선점: 최근 업데이트 날짜나 운영 상태에 대한 정보가 필요합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터와 실제 HTML 내용의 불일치\n2. 구체적인 업무 영역이나 서비스 범위에 대한 설명 부족\n3. 작성자, 출판 날짜, 업데이트 날짜 등의 정보 부재\n\n[Priority Actions]\n1. JSON-LD 데이터를 실제 HTML 내용과 일치시키세요.\n2. 업무 영역 및 서비스 범위를 명확히 설명하세요.\n3. 작성자, 출판 날짜, 업데이트 날짜 등의 정보를 제공하세요."
+    }
+  },
+  {
+    "url": "https://www.dmcmedia.co.kr",
+    "Total Score": 62.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 62.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: The page identifies DMC Media as an integrated marketing company.\n- 강점: Clear identification of the company's role in integrated marketing.\n- 개선점: More specific details about their services would improve clarity.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: The page has some structure but lacks direct answers to user questions.\n- 강점: Basic layout with sections like 'Core Competency', 'History', etc.\n- 개선점: Include more concrete information and FAQs to enhance answerability.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: Minimal evidence and citation-ready information present.\n- 강점: Some basic descriptions are provided.\n- 개선점: Add more detailed facts, statistics, and sources to increase credibility.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 4.0 / 15.0\n- 요약: No JSON-LD found, meta tags partially align with visible content.\n- 강점: Meta tags provide some consistency with visible text.\n- 개선점: Add appropriate JSON-LD to ensure schema alignment.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: Basic domain completeness but lacks specific details.\n- 강점: Covers basic aspects of a marketing company.\n- 개선점: Provide more specific services, client examples, and achievements.\n\n[Category 6: Freshness & Operational Trust Signals]\n- 점수: 6.0 / 10.0\n- 요약: Some operational signals present but no recent updates.\n- 강점: Presence of basic website elements.\n- 개선점: Update content regularly and include current operating hours, phone numbers, etc.\n\n[Top 3 Failure Reasons]\n1. Lack of specific service details and client examples.\n2. Insufficient evidence and citation-ready information.\n3. Missing JSON-LD and schema alignment.\n\n[Priority Actions]\n1. Add more specific service offerings and client success stories.\n2. Include detailed facts, statistics, and credible sources.\n3. Ensure consistent JSON-LD across the site."
+    }
+  },
+  {
+    "url": "https://www.fiverr.com",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: The page identifies itself as 'Fiverr', a freelance marketplace connecting businesses with freelancers.\n- 강점: Clear identification of the website as 'Fiverr'.\n- 개선점: More specific details about the types of services offered would improve clarity.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: The page lacks direct answers or structured content suitable for AI search engines.\n- 강점: Basic meta tags are present.\n- 개선점: Include more detailed descriptions, FAQs, and structured content like lists or tables.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 8.0 / 20.0\n- 요약: Minimal evidence provided beyond basic metadata.\n- 강점: Basic meta tags exist.\n- 개선점: Add more concrete facts, sources, and attribution information.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: No JSON-LD found, leading to a lack of schema alignment.\n- 강점: Basic meta tags are present.\n- 개선점: Add appropriate JSON-LD to align with visible HTML content.\n\n[Category 5: Domain-Specific Completeness (ecommerce)]\n- 점수: 11.0 / 15.0\n- 요약: The page identifies itself as an ecommerce platform but lacks specific service details.\n- 강점: Identifies as an ecommerce platform.\n- 개선점: Provide more detailed information about available services and their corresponding prices.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: No explicit freshness signals or operational trust indicators.\n- 강점: Basic meta tags are present.\n- 개선점: Include current pricing, availability, and other operational details.\n\n[Top 3 Failure Reasons]\n1. Lack of structured content and direct answers.\n2. Absence of JSON-LD and schema alignment.\n3. Insufficient domain-specific completeness.\n\n[Priority Actions]\n1. Add structured content such as FAQs, lists, and tables.\n2. Include JSON-LD to align with visible HTML content.\n3. Provide more detailed information about available services and their corresponding prices."
+    }
+  },
+  {
+    "url": "https://www.kbiz.or.kr",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 'KBIZ 중소기업중앙회'라는 주요 엔티티를 명확하게 나타냅니다.\n- 강점: 주요 엔티티와 목적이 명확히 표시되어 있습니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위를 설명하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있으며, 각 섹션마다 특정 주제에 대한 내용이 포함되어 있습니다.\n- 강점: 구조화된 콘텐츠와 다양한 섹션이 있어 사용자가 필요한 정보를 쉽게 찾을 수 있습니다.\n- 개선점: FAQ나 비교 표 등의 추가적인 답변 가능한 구조가 있으면 더 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지에는 일부 정보와 연락처가 제공되지만, 출처나 업데이트 날짜 등 구체적인 증거는 없습니다.\n- 강점: 기본적인 연락처 정보가 제공됩니다.\n- 개선점: 출처, 업데이트 날짜, 통계 등 구체적인 증거를 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: JSON-LD 데이터가 없으며, meta 태그와 HTML 내용 사이에 일관성이 부족합니다.\n- 강점: meta 태그가 존재합니다.\n- 개선점: JSON-LD 데이터를 추가하고, meta 태그와 HTML 내용을 일치시키세요.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 11.0 / 15.0\n- 요약: 일반적인 정보와 서비스 범위가 제공되지만, 구체적인 업무 영역이나 서비스 상세 정보가 부족합니다.\n- 강점: 주요 엔티티와 서비스 범위가 명확히 표시되어 있습니다.\n- 개선점: 업무 영역과 서비스 상세 정보를 추가하세요.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지에는 최근 업데이트 날짜나 운영 상태에 대한 정보가 부족합니다.\n- 강점: 기본적인 연락처 정보가 제공됩니다.\n- 개선점: 최근 업데이트 날짜와 운영 상태에 대한 정보를 추가하세요.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터가 없어 Schema-HTML Alignment 점수가 낮습니다.\n2. 구체적인 업무 영역이나 서비스 상세 정보가 부족합니다.\n3. 출처, 업데이트 날짜, 통계 등 구체적인 증거가 부족합니다.\n\n[Priority Actions]\n1. JSON-LD 데이터를 추가하고, meta 태그와 HTML 내용을 일치시키세요.\n2. 업무 영역과 서비스 상세 정보를 추가하세요.\n3. 출처, 업데이트 날짜, 통계 등을 추가하세요."
+    }
+  },
+  {
+    "url": "https://www.kontactic.com/ko/services",
+    "Total Score": 81.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 81.0/100.0 (Band: strong, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '해외 브랜드의 한국 진출 매니지드 서비스'라는 주제를 명확하게 설명하고 있으며, Kontactic이라는 기업 이름과 URL이 일치합니다.\n- 강점: 주제와 관련된 정보가 명확하게 제공되고 있습니다.\n- 개선점: 더 많은 세부사항이나 FAQ가 추가되면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 22.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있으며, 각 섹션마다 특정 질문에 대한 답변을 제공합니다. 또한, 가격, 서비스 내용 등 구체적인 정보가 포함되어 있습니다.\n- 강점: 구조적이고, 구체적인 정보가 잘 정리되어 있습니다.\n- 개선점: FAQ 형태의 질문과 답변이 좀 더 구조적으로 표현될 필요가 있습니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 18.0 / 20.0\n- 요약: 페이지는 Kontactic이라는 기업의 연락처와 위치, 서비스 범위 등을 제공하며, 신뢰성을 높이는 요소들이 포함되어 있습니다.\n- 강점: 회사 정보와 연락처가 명확히 표시되어 있습니다.\n- 개선점: 업데이트 날짜나 참고 자료가 추가되면 더욱 완벽해질 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 13.0 / 15.0\n- 요약: JSON-LD와 HTML 내용이 대부분 일치하지만, 일부 필드가 누락되었거나 불완전합니다.\n- 강점: 기본적인 정보가 일관되게 제공되고 있습니다.\n- 개선점: JSON-LD와 HTML 내용을 더욱 일치시키도록 노력해야 합니다.\n\n[Category 5: Domain-Specific Completeness (ecommerce)]\n- 점수: 16.0 / 15.0\n- 요약: 페이지는 e-commerce 서비스에 필요한 대부분의 정보를 제공하고 있지만, 일부 세부사항이 부족합니다.\n- 강점: 주요 서비스 정보와 가격이 잘 정리되어 있습니다.\n- 개선점: 더 많은 세부사항이나 FAQ가 추가되면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 페이지는 최근 업데이트된 것으로 보이며, 운영 상태를 나타내는 정보가 일부 포함되어 있습니다.\n- 강점: 최근 업데이트된 정보가 제공되고 있습니다.\n- 개선점: 업데이트 날짜나 최신 정보가 명확히 표시되면 더욱 좋을 것입니다.\n\n[Top 3 Failure Reasons]\n1. FAQ 형태의 질문과 답변이 좀 더 구조적으로 표현될 필요가 있습니다.\n2. JSON-LD와 HTML 내용을 더욱 일치시키도록 노력해야 합니다.\n3. 더 많은 세부사항이나 FAQ가 추가되면 좋을 것입니다.\n\n[Priority Actions]\n1. FAQ 형태의 질문과 답변이 좀 더 구조적으로 표현되도록 수정하세요.\n2. JSON-LD와 HTML 내용을 더욱 일치시키도록 노력하세요.\n3. 더 많은 세부사항이나 FAQ를 추가하세요."
+    }
+  },
+  {
+    "url": "https://www.mezzomedia.co.kr",
+    "Total Score": 68.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 68.0/100.0 (Band: good, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 'CJ 메조미디어'라는 기업에 대해 설명하고 있으며, 주요 서비스와 목표를 간략히 소개하고 있습니다.\n- 강점: 메조미디어라는 기업이 무엇인지 명확하게 설명하고 있습니다.\n- 개선점: 더 구체적인 업무 범위나 특징을 추가하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 10.0 / 25.0\n- 요약: 페이지는 메조미디어의 주제만 간략히 설명하고 있지만, 구조화된 질문-답변 형식이나 FAQ가 없습니다.\n- 강점: 메조미디어의 주제를 간략히 설명하고 있습니다.\n- 개선점: FAQ, 비교 표, 리스트 등의 구조화된 내용을 추가하면 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 13.0 / 20.0\n- 요약: 메조미디어의 이름과 URL은 제공되지만, 작성자, 출판 날짜, 업데이트 정보 등이 부족합니다.\n- 강점: 메조미디어의 이름과 URL은 제공되고 있습니다.\n- 개선점: 작성자, 출판 날짜, 업데이트 정보 등을 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 11.0 / 15.0\n- 요약: JSON-LD에는 메조미디어의 URL과 로고 정보가 포함되어 있지만, HTML 본문과의 일치성이 완벽하지 않습니다.\n- 강점: JSON-LD에는 메조미디어의 URL과 로고 정보가 포함되어 있습니다.\n- 개선점: JSON-LD와 HTML 본문의 일치를 더욱 강화해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: 일반적인 웹페이지로서 메조미디어의 기본 정보는 제공하지만, 구체적인 서비스 범위나 기술 스택 등이 부족합니다.\n- 강점: 메조미디어의 기본 정보는 제공되고 있습니다.\n- 개선점: 구체적인 서비스 범위, 기술 스택 등이 추가되면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 최근의 활동이나 업데이트 정보가 일부 존재하지만, 구체적인 날짜 정보가 부족합니다.\n- 강점: 최근의 활동이나 업데이트 정보가 일부 존재합니다.\n- 개선점: 구체적인 날짜 정보를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. 구조화된 질문-답변 형식이나 FAQ가 없음\n2. 작성자, 출판 날짜, 업데이트 정보 등이 부족함\n3. JSON-LD와 HTML 본문의 일치성이 완벽하지 않음\n\n[Priority Actions]\n1. FAQ, 비교 표, 리스트 등의 구조화된 내용을 추가하세요.\n2. 작성자, 출판 날짜, 업데이트 정보 등을 추가하세요.\n3. JSON-LD와 HTML 본문의 일치를 강화하세요."
+    }
+  },
+  {
+    "url": "https://www.revu.net",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 '레뷰'라는 이름으로 인플루언서 마케팅에 대한 정보를 제공하고 있습니다.\n- 강점: 명확한 브랜드와 주제가 제시되어 있습니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위를 설명하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 제품과 관련된 체험단 정보를 제공하고 있지만, 구조화된 질문-답변 형식은 없습니다.\n- 강점: 다양한 제품과 체험단 정보가 제공됩니다.\n- 개선점: FAQ나 비교 표를 추가하여 사용자가 쉽게 필요한 정보를 찾을 수 있도록 하는 것이 좋습니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 14.0 / 20.0\n- 요약: 페이지는 제품과 관련된 정보를 제공하지만, 작성자나 출처에 대한 정보는 부족합니다.\n- 강점: 제품 정보가 제공되고 있습니다.\n- 개선점: 작성자나 출처에 대한 정보를 추가하면 더 신뢰할 수 있는 페이지가 될 것입니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 8.0 / 15.0\n- 요약: JSON-LD에는 '레뷰'의 URL과 같은 정보가 포함되어 있지만, HTML 내용과의 일관성이 부족합니다.\n- 강점: JSON-LD에서 URL과 같은 기본 정보가 제공됩니다.\n- 개선점: HTML 내용과 JSON-LD 사이의 일관성을 높이는 것이 필요합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 10.0 / 15.0\n- 요약: 페이지는 일반적으로 '레뷰'라는 브랜드와 관련된 제품 및 체험단 정보를 제공하고 있습니다.\n- 강점: 제품과 관련된 정보가 제공됩니다.\n- 개선점: 더 구체적인 업무 영역이나 서비스 범위에 대한 정보를 추가하면 좋을 것입니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 페이지는 현재 운영 중이며, 최근의 제품 정보가 제공되고 있습니다.\n- 강점: 최근의 제품 정보가 제공됩니다.\n- 개선점: 업데이트 날짜나 운영 상태에 대한 정보를 추가하면 더 신뢰할 수 있는 페이지가 될 것입니다.\n\n[Top 3 Failure Reasons]\n1. HTML 내용과 JSON-LD 사이의 일관성 부족\n2. FAQ나 비교 표 등 구조화된 질문-답변 형식 부재\n3. 작성자나 출처에 대한 정보 부족\n\n[Priority Actions]\n1. HTML 내용과 JSON-LD 사이의 일관성을 높입니다.\n2. FAQ나 비교 표 등을 추가하여 사용자가 쉽게 필요한 정보를 찾을 수 있도록 합니다.\n3. 작성자나 출처에 대한 정보를 추가합니다."
+    }
+  },
+  {
+    "url": "https://www.sbiz.or.kr/cot/cm/intro.do",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 14.0 / 15.0\n- 요약: 페이지는 '소상공인컨설팅'이라는 주제를 명확히 하고 있으며, 주요 서비스와 대상 고객을 설명하고 있습니다.\n- 강점: 주제와 서비스 범위를 명확하게 설명하고 있습니다.\n- 개선점: 더 구체적인 서비스 범위나 대상 고객을 추가하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있으며, 각 섹션은 특정 정보를 제공하고 있지만, 구조적으로 완벽하지 않습니다.\n- 강점: 여러 섹션이 있어 사용자가 필요한 정보를 쉽게 찾을 수 있습니다.\n- 개선점: FAQ나 비교 표 등의 구조적인 요소를 추가하면 더 좋을 것입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 12.0 / 20.0\n- 요약: 페이지는 일부 정보를 제공하지만, 출처나 업데이트 날짜 등의 신뢰성을 부족합니다.\n- 강점: 기본적인 정보를 제공하고 있습니다.\n- 개선점: 출처, 업데이트 날짜 등의 정보를 추가해야 합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: JSON-LD 데이터가 없으며, meta 태그도 대부분 누락되어 있습니다.\n- 강점: 기본 HTML 구조는 존재합니다.\n- 개선점: JSON-LD 데이터와 meta 태그를 추가해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 13.0 / 15.0\n- 요약: 페이지는 일반적인 정보를 제공하고 있지만, 특정 서비스나 대상 고객에 대한 구체적인 정보가 부족합니다.\n- 강점: 기본적인 정보를 제공하고 있습니다.\n- 개선점: 서비스 범위와 대상 고객에 대한 구체적인 정보를 추가해야 합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 8.0 / 10.0\n- 요약: 페이지는 최근 정보를 제공하고 있지만, 업데이트 날짜 등의 정보가 부족합니다.\n- 강점: 최근 정보를 제공하고 있습니다.\n- 개선점: 업데이트 날짜 등의 정보를 추가해야 합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD 데이터와 meta 태그가 부족합니다.\n2. 구체적인 서비스 범위와 대상 고객에 대한 정보가 부족합니다.\n3. 출처와 업데이트 날짜 등의 신뢰성이 부족합니다.\n\n[Priority Actions]\n1. JSON-LD 데이터와 meta 태그를 추가하세요.\n2. 서비스 범위와 대상 고객에 대한 구체적인 정보를 추가하세요.\n3. 출처와 업데이트 날짜 등의 정보를 추가하세요."
+    }
+  },
+  {
+    "url": "https://www.semas.or.kr",
+    "Total Score": 60.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 60.0/100.0 (Band: average, AI Citation Potential: medium)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: 페이지는 SEMAS에 대한 정보를 제공하며, 주요 업무와 관련된 여러 섹션을 포함하고 있습니다.\n- 강점: SEMAS에 대한 명확한 설명이 있으며, 다양한 섹션이 있어 사용자가 필요한 정보를 쉽게 찾을 수 있습니다.\n- 개선점: 각 섹션별로 더 구체적인 목적과 범위를 명시하면 좋을 것입니다.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: 페이지는 여러 섹션으로 구성되어 있으며, 각 섹션마다 특정 주제에 대해 설명하고 있습니다.\n- 강점: 구조적으로 잘 정렬되어 있으며, 각 섹션별로 필요한 정보를 제공하고 있습니다.\n- 개선점: FAQ나 비교 표 등의 추가적인 구조화가 필요할 것으로 보입니다.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 10.0 / 20.0\n- 요약: 페이지는 SEMAS에 대한 기본적인 정보를 제공하지만, 구체적인 출처나 데이터는 부족합니다.\n- 강점: SEMAS에 대한 기본적인 정보를 제공하고 있습니다.\n- 개선점: 구체적인 출처나 데이터를 추가하여 신뢰성을 높이는 것이 필요합니다.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 3.0 / 15.0\n- 요약: JSON-LD가 존재하지 않으며, meta 태그와 HTML 내용 사이에는 일관성이 부족합니다.\n- 강점: meta 태그가 일부 존재합니다.\n- 개선점: JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관되게 유지해야 합니다.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 11.0 / 15.0\n- 요약: 페이지는 SEMAS에 대한 기본적인 정보를 제공하지만, 구체적인 데이터나 출처는 부족합니다.\n- 강점: SEMAS에 대한 기본적인 정보를 제공하고 있습니다.\n- 개선점: 구체적인 데이터나 출처를 추가하여 정보의 완전성을 높이는 것이 필요합니다.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: 페이지는 최근 업데이트 여부를 나타내는 신호가 없습니다.\n- 강점: 페이지는 SEMAS에 대한 기본적인 정보를 제공하고 있습니다.\n- 개선점: 최근 업데이트 날짜를 표시하거나, 운영 상태를 확인하는 방법을 제공해야 합니다.\n\n[Top 3 Failure Reasons]\n1. JSON-LD가 존재하지 않아 Schema-HTML Alignment 점수가 낮습니다.\n2. 구체적인 출처나 데이터가 부족하여 Evidence & Citation Readiness 점수가 낮습니다.\n3. 최근 업데이트 날짜가 없어 Freshness & Operational Trust 점수가 낮습니다.\n\n[Priority Actions]\n1. JSON-LD를 추가하고, meta 태그와 HTML 내용을 일관되게 유지하세요.\n2. 구체적인 출처나 데이터를 추가하여 신뢰성을 높이세요.\n3. 최근 업데이트 날짜를 표시하거나, 운영 상태를 확인하는 방법을 제공하세요."
+    }
+  },
+  {
+    "url": "https://www.upwork.com",
+    "Total Score": 80.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 80.0/100.0 (Band: strong, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 15.0 / 15.0\n- 요약: The page clearly identifies Upwork as the world's largest human and AI-powered freelance marketplace.\n- 강점: The title, meta tags, and JSON-LD consistently identify Upwork as the main entity and describe its purpose.\n- 개선점: \n\n[Category 2: Answerability & Content Structure]\n- 점수: 20.0 / 25.0\n- 요약: The page has some structure but lacks direct answers to specific user questions and lacks FAQs or comparison tables.\n- 강점: The page is well-organized with clear headings and sections.\n- 개선점: Include more direct answers to common user questions, add FAQs, and consider adding comparison tables.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 18.0 / 20.0\n- 요약: The page provides basic attribution and operational details but lacks detailed evidence such as reviews or specific service offerings.\n- 강점: The page mentions the company name, logo, and contact information.\n- 개선점: Add more detailed evidence like customer testimonials, reviews, and specific service offerings.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 14.0 / 15.0\n- 요약: The JSON-LD schema aligns with the visible HTML content, but some fields are incomplete or redundant.\n- 강점: The JSON-LD schema matches the visible content and provides basic organizational details.\n- 개선점: Ensure all fields in the JSON-LD schema are complete and consistent with the visible content.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 12.0 / 15.0\n- 요약: The page covers the basics of a freelance marketplace but lacks detailed information about services offered and pricing.\n- 강점: The page introduces Upwork as a freelance marketplace and highlights its global presence.\n- 개선점: Provide more detailed information about services offered, pricing structures, and specific job categories.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 7.0 / 10.0\n- 요약: The page does not provide explicit dates or updates, which may affect trust and freshness signals.\n- 강점: The page maintains a professional tone and provides basic operational details.\n- 개선점: Include recent update dates or timestamps to enhance trust and freshness signals.\n\n[Top 3 Failure Reasons]\n1. Lack of detailed evidence such as reviews or specific service offerings.\n2. Missing direct answers to common user questions and FAQs.\n3. Incomplete or inconsistent JSON-LD schema fields.\n\n[Priority Actions]\n1. Add detailed evidence like customer testimonials and specific service offerings.\n2. Include FAQs and direct answers to common user questions.\n3. Ensure all JSON-LD schema fields are complete and consistent with the visible content."
+    }
+  },
+  {
+    "url": "https://www.wooribank.com",
+    "Total Score": 68.0,
+    "status": "success",
+    "raw_response": {
+      "status": "success",
+      "result_type": "text",
+      "content": "Total Score: 68.0/100.0 (Band: good, AI Citation Potential: high)\n\n[Category 1: Entity & Topic Clarity]\n- 점수: 12.0 / 15.0\n- 요약: The page identifies Woori Bank as the main entity but lacks clear topic specificity.\n- 강점: The page clearly mentions Woori Bank as the main entity.\n- 개선점: Include more specific topics or services offered by the bank to improve clarity.\n\n[Category 2: Answerability & Content Structure]\n- 점수: 18.0 / 25.0\n- 요약: The page has some structure but lacks direct answers to user questions.\n- 강점: The page uses headings and sections which provide some structure.\n- 개선점: Add more direct answers to common user questions and FAQs.\n\n[Category 3: Evidence & Citation Readiness]\n- 점수: 14.0 / 20.0\n- 요약: Basic attribution and schema markup are present but incomplete.\n- 강점: Basic meta tags and JSON-LD exist.\n- 개선점: Ensure all claims are supported by verifiable evidence and complete metadata.\n\n[Category 4: Schema-HTML Alignment]\n- 점수: 10.0 / 15.0\n- 요약: Some alignment issues between visible HTML and JSON-LD.\n- 강점: Basic schema markup exists.\n- 개선점: Ensure consistency between visible HTML and JSON-LD.\n\n[Category 5: Domain-Specific Completeness (general)]\n- 점수: 8.0 / 15.0\n- 요약: The page covers basic banking information but lacks detailed operational details.\n- 강점: Covers basic banking information such as contact details and services.\n- 개선점: Provide more detailed operational details like branch locations and hours of operation.\n\n[Category 6: Freshness & Operational Trust]\n- 점수: 6.0 / 10.0\n- 요약: No explicit date or update information provided.\n- 강점: Basic presence of functional elements.\n- 개선점: Include current dates and update information to enhance trust.\n\n[Top 3 Failure Reasons]\n1. Lack of specific topic clarity and detailed service descriptions.\n2. Incomplete schema markup and inconsistent alignment with visible HTML.\n3. Absence of recent updates and explicit date information.\n\n[Priority Actions]\n1. Define specific services and offerings to clarify the purpose of the page.\n2. Ensure consistent schema markup across all visible content.\n3. Include current dates and regular updates to maintain freshness."
+    }
+  }
+]

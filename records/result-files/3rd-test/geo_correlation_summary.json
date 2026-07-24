@@ -1,0 +1,16 @@
+{
+  "n": 73,
+  "spearman_correlation": 0.12534376825891774,
+  "by_question": {
+    "GEO기업-탐색-질문": {
+      "n": 55,
+      "spearman_correlation": 0.23347083509008187,
+      "plot": "result-files\\question-scatters\\GEO기업-탐색-질문.png"
+    },
+    "suwon-hosipital-recommend": {
+      "n": 18,
+      "spearman_correlation": 0.015303722590155224,
+      "plot": "result-files\\question-scatters\\suwon-hosipital-recommend.png"
+    }
+  }
+}

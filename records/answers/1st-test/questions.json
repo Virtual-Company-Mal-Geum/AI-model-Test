@@ -1,0 +1,55 @@
+{
+  "chatgpt_url": "https://chatgpt.com/",
+  "chrome_binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "chrome_profile_dir": ".chrome-profile",
+  "output_dir": "answers",
+  "delay_between_runs_seconds": 2,
+  "wait_timeout_seconds": 180,
+  "questions": [
+  {
+    "id": "small-shopping-mall-reference",
+    "text": "소규모 쇼핑몰이 참고할 만한 자사몰 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "solo-business-marketing-consulting",
+    "text": "1인 사업자가 쓸 만한 마케팅 컨설팅 서비스 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "beginner-running-goods-shop",
+    "text": "초보자가 구매하기 좋은 러닝용품 쇼핑몰 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "suwon-small-meeting-space",
+    "text": "수원에서 소규모 모임 가능한 공간 대여 장소 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "small-brand-sns-consulting",
+    "text": "작은 브랜드 SNS 운영 컨설팅 받을 만한 곳 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "handmade-leather-wallet-gift",
+    "text": "선물용으로 좋은 수제 가죽 지갑 브랜드 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "twenties-women-diary-shop",
+    "text": "20대 여성이 좋아할 만한 다이어리 쇼핑몰 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "beginner-marketing-practical-course",
+    "text": "초보자가 들을 만한 마케팅 실무 강의 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  },
+  {
+    "id": "solo-instructor-practical-course-site",
+    "text": "1인 강사가 운영하는 실무 강의 사이트 추천해줘. 추천한 곳의 url을 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
+    "repeat": 10
+  }
+]
+}

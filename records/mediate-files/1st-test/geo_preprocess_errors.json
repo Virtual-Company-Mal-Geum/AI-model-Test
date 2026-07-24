@@ -1,0 +1,106 @@
+[
+  {
+    "url": "https://abcmart.co.kr",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://abcmart.co.kr/"
+  },
+  {
+    "url": "https://fleet-kr.com",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://fleet-kr.com/"
+  },
+  {
+    "url": "https://runnersclub.co.kr",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://runnersclub.co.kr/"
+  },
+  {
+    "url": "https://runningkorea.co.kr",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.abcmart.co.kr",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.abcmart.co.kr/"
+  },
+  {
+    "url": "https://www.newbalance.co.kr",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.newbalance.co.kr/"
+  },
+  {
+    "url": "https://www.runnersclub.co.kr",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.runnersclub.co.kr/"
+  },
+  {
+    "url": "https://roberu.com",
+    "error": "Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://roberu.com/"
+  },
+  {
+    "url": "https://www.montblanc.com",
+    "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.montblanc.com/"
+  },
+  {
+    "url": "https://www.thesuperiorlabor.com",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.thesuperiorlabor.com/"
+  },
+  {
+    "url": "https://bround.oopy.io",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bround.oopy.io/"
+  },
+  {
+    "url": "https://rockfish-weatherwear.com",
+    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://rockfish-weatherwear.com/"
+  },
+  {
+    "url": "https://otwojob.com",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://otwojob.com/"
+  },
+  {
+    "url": "https://www.youtube.com/@leftcoding",
+    "error": "No JSON-LD, meta tags, or markdown text extracted"
+  },
+  {
+    "url": "https://www.partyumhouse.com",
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://www.partyumhouse.com/"
+  },
+  {
+    "url": "https://partyumhouse.com",
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://partyumhouse.com/"
+  },
+  {
+    "url": "https://www.toz.co.kr",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.toz.co.kr/"
+  },
+  {
+    "url": "https://www.10x10.co.kr",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.1300k.com",
+    "error": "Page.goto: net::ERR_CERT_DATE_INVALID at https://www.1300k.com/"
+  },
+  {
+    "url": "https://www.artboxmall.com",
+    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://www.artboxmall.com/"
+  },
+  {
+    "url": "https://iconic.co.kr",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://iconic.co.kr/"
+  },
+  {
+    "url": "https://object.co.kr",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://withot.com",
+    "error": "No JSON-LD, meta tags, or markdown text extracted"
+  },
+  {
+    "url": "https://www.iconic.co.kr",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.iconic.co.kr/"
+  },
+  {
+    "url": "https://www.muji.com/kr",
+    "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.muji.com/kr"
+  },
+  {
+    "url": "https://www.object.co.kr",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  }
+]

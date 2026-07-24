@@ -1,0 +1,20 @@
+{
+  "chatgpt_url": "https://chatgpt.com/",
+  "chrome_binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+  "chrome_profile_dir": ".chrome-profile",
+  "output_dir": "answers",
+  "delay_between_runs_seconds": 8,
+  "wait_timeout_seconds": 600,
+  "questions": [
+    {
+      "id": "sample-summary",
+      "text": "인공지능의 장점과 단점을 5문장으로 요약해줘.",
+      "repeat": 2
+    },
+    {
+      "id": "sample-ideas",
+      "text": "초등학생을 위한 과학 실험 아이디어 3개를 추천해줘.",
+      "repeat": 1
+    }
+  ]
+}

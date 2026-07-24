@@ -1,0 +1,210 @@
+[
+  {
+    "url": "https://georankai.com/",
+    "error": "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://georankai.com/"
+  },
+  {
+    "url": "https://surfgeo.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.ebiweb.co.kr/service/geo",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.geovate.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.werankle.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://business.adobe.com/",
+    "error": "Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://business.adobe.com/"
+  },
+  {
+    "url": "https://goodie.so/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://goodie.so/"
+  },
+  {
+    "url": "https://prompterra.ai/",
+    "error": "Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://prompterra.ai/"
+  },
+  {
+    "url": "https://rocketgeo.ai/",
+    "error": "Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://rocketgeo.ai/"
+  },
+  {
+    "url": "https://searchedge.ai/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.semrush.com/",
+    "error": "Page.goto: net::ERR_CONNECTION_RESET at https://www.semrush.com/"
+  },
+  {
+    "url": "https://oclead.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://oclead.co.kr/"
+  },
+  {
+    "url": "https://biginsight.co/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://biginsight.co/"
+  },
+  {
+    "url": "https://m.biz-brandx.com/",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://m.biz-brandx.com/"
+  },
+  {
+    "url": "https://www.prgate.com/",
+    "error": "Page.goto: net::ERR_CONNECTION_REFUSED at https://www.prgate.com/"
+  },
+  {
+    "url": "https://localhero.kr/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://mnovation.co.kr/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.dmconsulting.co.kr/",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.dmconsulting.co.kr/"
+  },
+  {
+    "url": "https://barum.co.kr/",
+    "error": "Page.goto: net::ERR_NETWORK_CHANGED at https://barum.co.kr/"
+  },
+  {
+    "url": "https://bat.xyz/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bat.xyz/"
+  },
+  {
+    "url": "https://beez.kr/",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://beez.kr/"
+  },
+  {
+    "url": "https://brandinggroup.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://brandinggroup.co.kr/"
+  },
+  {
+    "url": "https://brandnalda.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://brandnalda.com/"
+  },
+  {
+    "url": "https://bxone1.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://bxone1.com/"
+  },
+  {
+    "url": "https://comma-ent.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://comma-ent.com/"
+  },
+  {
+    "url": "https://fnt.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://fnt.co.kr/"
+  },
+  {
+    "url": "https://growthmarketing.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://growthmarketing.co.kr/"
+  },
+  {
+    "url": "https://growthx.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://growthx.kr/"
+  },
+  {
+    "url": "https://jh-partners.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://jh-partners.co.kr/"
+  },
+  {
+    "url": "https://marketfitlab.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://marketfitlab.co.kr/"
+  },
+  {
+    "url": "https://marketingdesignlab.com/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://marketit.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://marketit.co.kr/"
+  },
+  {
+    "url": "https://marq.company/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://marq.company/"
+  },
+  {
+    "url": "https://opensc.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://opensc.kr/"
+  },
+  {
+    "url": "https://sanghanmarketing.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://sanghanmarketing.co.kr/"
+  },
+  {
+    "url": "https://startup.kt.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://startup.kt.com/"
+  },
+  {
+    "url": "https://thefingergroup.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://thefingergroup.co.kr/"
+  },
+  {
+    "url": "https://wannaish.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://wannaish.com/"
+  },
+  {
+    "url": "https://wannash.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://wannash.co.kr/"
+  },
+  {
+    "url": "https://www.ggolcreative.com/",
+    "error": "Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://www.ggolcreative.com/"
+  },
+  {
+    "url": "https://www.kaicompany.kr/",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.kaicompany.kr/"
+  },
+  {
+    "url": "https://www.kmdc.or.kr/",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.kmdc.or.kr/"
+  },
+  {
+    "url": "https://www.ktmi.re.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ktmi.re.kr/"
+  },
+  {
+    "url": "https://www.mezzo.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mezzo.co.kr/"
+  },
+  {
+    "url": "https://www.miraeinc.co.kr/",
+    "error": "Page.goto: Timeout 15000ms exceeded."
+  },
+  {
+    "url": "https://www.miraeinc.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.miraeinc.com/"
+  },
+  {
+    "url": "https://www.nanoomcoop.com/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.nanoomcoop.com/"
+  },
+  {
+    "url": "https://www.wkmarketing.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.wkmarketing.co.kr/"
+  },
+  {
+    "url": "https://youandimedia.co.kr/",
+    "error": "Page.goto: net::ERR_NAME_NOT_RESOLVED at https://youandimedia.co.kr/"
+  },
+  {
+    "url": "https://www.e-himart.co.kr/",
+    "error": "No JSON-LD, meta tags, or markdown text extracted"
+  },
+  {
+    "url": "https://kream.co.kr/",
+    "error": "No JSON-LD, meta tags, or markdown text extracted"
+  },
+  {
+    "url": "https://www.electromart.co.kr/",
+    "error": "Page.goto: net::ERR_SSL_PROTOCOL_ERROR at https://www.electromart.co.kr/"
+  }
+]
