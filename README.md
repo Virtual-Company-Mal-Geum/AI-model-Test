@@ -64,13 +64,13 @@ python -m venv .venv
 - `chrome_profile_dir`: 로그인 상태를 보관할 Chrome 프로필 폴더
 
 ## 실행 순서
-1. run.bat
-2. extract_answer_urls.py
-3. build_url_outputs.py
-4. preprocess_urls.py
-4-1. update_preprocessed_domains.py (도메인 수정 필요시)
-5. evaluate.py
-6. visualize.py
+1. run.bat : 메크로 실행
+2. extract_answer_urls.py : ChatGPT 답변에서 언급횟수 추출
+3. build_url_outputs.py : 언급률 계산과 url추출
+4. update_preprocessed_domains.py : AI모델 입력 데이터 "domain" 지정
+5. preprocess_urls.py : url크롤링 후 AI모델 입력형식으로 변환
+6. evaluate.py : GEO점수 평가
+7. visualize.py : ChatGPT언급률과 GEO점수간의 상관관계 계산 및 산점도 생성
 
 ## 실행
 

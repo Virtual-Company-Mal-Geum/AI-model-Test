@@ -1,185 +1,140 @@
+"""Build one evaluator-input JSON file from URL/domain pairs configured below.
+
+Run directly after installing requirements and Playwright Chromium:
+    python build_test_inputs.py
+"""
+
 from __future__ import annotations
 
-import argparse
 import asyncio
 import json
-import re
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
-from urllib.parse import urlparse, urlunparse
 
-from markdownify import markdownify as md
-from playwright.async_api import BrowserContext, async_playwright
-
-
+# Allow this file to be run directly (for example, from the VS Code debugger).
 ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+from ground_truth_builder.config import Settings
+from ground_truth_builder.crawler import make_context
+from ground_truth_builder.gateway_input import prepare_gateway_input
+
+
+# =============================== CONFIGURATION ===============================
+
+
 MEDIATE_DIR = ROOT / "mediate-files"
-DEFAULT_INPUT = MEDIATE_DIR / "answer_urls.txt"
-DEFAULT_OUTPUT = MEDIATE_DIR / "geo_preprocessed.jsonl"
-DEFAULT_ERRORS = MEDIATE_DIR / "geo_preprocess_errors.json"
-MAX_CONCURRENT_PAGES = 5
+INPUT_PATH = MEDIATE_DIR / "answer_urls.txt"
+OUTPUT_PATH = MEDIATE_DIR / "geo_preprocessed.jsonl"
+FAILURES_PATH = MEDIATE_DIR / "geo_preprocess_errors.json"
+
+MAX_CONCURRENT_PREPARATIONS = 5
+SETTINGS = Settings(max_concurrent_pages=MAX_CONCURRENT_PREPARATIONS)
 
 
-def normalize_url(raw_url: str) -> str:
-    raw_url = raw_url.strip().strip(".,);]}>\"'")
-    if not raw_url:
-        return ""
-
-    parsed = urlparse(raw_url if re.match(r"^https?://", raw_url, re.I) else f"https://{raw_url}")
-    if not parsed.netloc:
-        return ""
-
-    normalized = parsed._replace(
-        scheme=parsed.scheme.lower(),
-        netloc=parsed.netloc.lower(),
-        fragment="",
-    )
-    return urlunparse(normalized)
+@dataclass(frozen=True)
+class UrlDomainPair:
+    url: str
+    domain: str  # news | education | ecommerce | tech_blog | None
 
 
-def read_urls(path: Path) -> list[str]:
-    seen: set[str] = set()
-    urls: list[str] = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        url = normalize_url(line)
-        if url and url not in seen:
-            seen.add(url)
-            urls.append(url)
-    return urls
+def load_url_domain_pairs(input_path: Path) -> tuple[UrlDomainPair, ...]:
+    pairs: list[UrlDomainPair] = []
 
+    for line_number, line in enumerate(
+        input_path.read_text(encoding="utf-8").splitlines(),
+        start=1,
+    ):
+        stripped = line.strip()
+        if not stripped:
+            continue
 
-def compact_markdown(markdown_text: str, limit: int = 8000) -> str:
-    markdown_text = " ".join(markdown_text.split())
-    if len(markdown_text) <= limit:
-        return markdown_text
-    return markdown_text[:limit].rsplit(" ", 1)[0]
+        parts = stripped.split(maxsplit=1)
+        url = parts[0]
+        if len(parts) == 1:
+            # Keep compatibility with the previous URL-only input format.
+            pairs.append(UrlDomainPair(url, "None"))
+            continue
 
-
-def categorize_domain(url: str, json_ld: list[Any], meta_tags: dict[str, str]) -> str:
-    text_hints = f"{url} {str(json_ld)} {str(meta_tags)}".lower()
-
-    if "product" in text_hints or "offer" in text_hints or "price" in text_hints or "/shop/" in url:
-        return "ecommerce"
-    if "newsarticle" in text_hints or "article" in text_hints or "/news/" in url:
-        return "news"
-    if "ac.kr" in url or ".edu" in url or "scholarlyarticle" in text_hints:
-        return "academic"
-
-    return "general"
-
-
-async def extract_record(
-    context: BrowserContext,
-    url: str,
-    semaphore: asyncio.Semaphore,
-    text_limit: int,
-) -> tuple[dict[str, Any] | None, dict[str, str] | None]:
-    async with semaphore:
-        page = await context.new_page()
-        try:
-            print(f"[crawl] {url}")
-            await page.goto(url, timeout=15000, wait_until="domcontentloaded")
-
-            extracted_json: list[Any] = []
-            for tag in await page.locator('script[type="application/ld+json"]').all():
-                content = (await tag.inner_text()).strip()
-                if not content:
-                    continue
-                try:
-                    extracted_json.append(json.loads(content))
-                except json.JSONDecodeError:
-                    continue
-
-            meta_tags: dict[str, str] = {}
-            selectors = 'meta[property^="og:"], meta[name^="twitter:"], meta[name="description"]'
-            for loc in await page.locator(selectors).all():
-                key = await loc.get_attribute("property") or await loc.get_attribute("name")
-                val = await loc.get_attribute("content")
-                if key and val:
-                    meta_tags[key] = val
-
-            html_content = ""
-            if await page.locator("article").count() > 0:
-                html_content = await page.locator("article").first.inner_html()
-            elif await page.locator("main").count() > 0:
-                html_content = await page.locator("main").first.inner_html()
-            else:
-                html_content = await page.locator("body").inner_html()
-
-            markdown_text = compact_markdown(
-                md(html_content, heading_style="ATX", strip=["script", "style", "iframe"]).strip(),
-                text_limit,
+        domain_field = parts[1]
+        field_name, colon, raw_domain = domain_field.strip().partition(":")
+        if field_name.strip() != '"domain"' or not colon:
+            raise ValueError(
+                f'Invalid answer_urls.txt format at line {line_number}: '
+                f'expected URL "domain": VALUE'
             )
-            domain_category = categorize_domain(url, extracted_json, meta_tags)
 
-            if extracted_json or markdown_text or meta_tags:
-                return (
-                    {
-                        "url": url,
-                        "domain": domain_category,
-                        "meta_tags": meta_tags,
-                        "json_ld": extracted_json,
-                        "html_text": markdown_text,
-                    },
-                    None,
-                )
+        domain = raw_domain.strip()
+        if len(domain) >= 2 and domain[0] == domain[-1] == '"':
+            domain = domain[1:-1].strip()
+        if not domain:
+            raise ValueError(f"Empty domain at line {line_number}: {url}")
+        if domain.casefold() == "none":
+            domain = "None"
 
-            return None, {"url": url, "error": "No JSON-LD, meta tags, or markdown text extracted"}
+        pairs.append(UrlDomainPair(url, domain))
+
+    return tuple(pairs)
+
+
+URL_DOMAIN_PAIRS = load_url_domain_pairs(INPUT_PATH)
+
+def write_json(path: Path, value: list[dict[str, Any]]) -> None:
+    """Atomically replace the output so interrupted runs never leave partial JSON."""
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    temporary.replace(path)
+
+
+async def convert_one(context: Any, pair: UrlDomainPair, semaphore: asyncio.Semaphore) -> tuple[dict[str, Any] | None, dict[str, str] | None]:
+    async with semaphore:
+        try:
+            payload = await prepare_gateway_input(
+                context,
+                url=pair.url,
+                domain=pair.domain,
+                settings=SETTINGS,
+            )
+            # json_ld is always a Python list and becomes [] in the JSON file when absent.
+            return payload, None
         except Exception as exc:
-            error_msg = str(exc).splitlines()[0] if str(exc).splitlines() else "Unknown Error"
-            print(f"[skip] {url}: {error_msg}")
-            return None, {"url": url, "error": error_msg}
-        finally:
-            await page.close()
+            print(f"[failed] domain={pair.domain} url={pair.url}: {exc}")
+            return None, {
+                "url": pair.url,
+                "domain": pair.domain,
+                "error": str(exc).splitlines()[0][:500],
+            }
 
 
-async def run(input_path: Path, output_path: Path, errors_path: Path, concurrency: int, text_limit: int) -> None:
-    MEDIATE_DIR.mkdir(parents=True, exist_ok=True)
-    urls = read_urls(input_path)
-    output_path.write_text("", encoding="utf-8")
+async def main_async() -> None:
+    if not URL_DOMAIN_PAIRS:
+        print("[warning] URL_DOMAIN_PAIRS is empty; writing empty output arrays.")
 
-    print(f"Starting semantic extraction for {len(urls)} URLs...")
-    semaphore = asyncio.Semaphore(concurrency)
-    records: list[dict[str, Any]] = []
-    errors: list[dict[str, str]] = []
+    from playwright.async_api import async_playwright
 
+    semaphore = asyncio.Semaphore(MAX_CONCURRENT_PREPARATIONS)
     async with async_playwright() as playwright:
-        browser = await playwright.chromium.launch(headless=True)
-        context = await browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0"
-        )
-        tasks = [extract_record(context, url, semaphore, text_limit) for url in urls]
-        results = await asyncio.gather(*tasks, return_exceptions=False)
-        await browser.close()
+        browser, context = await make_context(playwright, SETTINGS)
+        try:
+            results = await asyncio.gather(
+                *(convert_one(context, pair, semaphore) for pair in URL_DOMAIN_PAIRS)
+            )
+        finally:
+            await browser.close()
 
-    with output_path.open("a", encoding="utf-8") as output_file:
-        for record, error in results:
-            if record:
-                records.append(record)
-                output_file.write(json.dumps(record, ensure_ascii=False) + "\n")
-            if error:
-                errors.append(error)
-
-    errors_path.write_text(json.dumps(errors, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"Wrote {len(records)} records to {output_path.relative_to(ROOT)}")
-    print(f"Wrote {len(errors)} errors to {errors_path.relative_to(ROOT)}")
-
-
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Crawl URLs and convert them to GEO evaluator input JSONL.")
-    parser.add_argument("--input", type=Path, default=DEFAULT_INPUT)
-    parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT)
-    parser.add_argument("--errors", type=Path, default=DEFAULT_ERRORS)
-    parser.add_argument("--concurrency", type=int, default=MAX_CONCURRENT_PAGES)
-    parser.add_argument("--text-limit", type=int, default=8000)
-    args = parser.parse_args()
-
-    if sys.platform == "win32":
-        asyncio.set_event_loop_policy(asyncio.WindowsProactorEventLoopPolicy())
-
-    asyncio.run(run(args.input, args.output, args.errors, args.concurrency, args.text_limit))
+    prepared = [payload for payload, _ in results if payload is not None]
+    failures = [failure for _, failure in results if failure is not None]
+    write_json(OUTPUT_PATH, prepared)
+    write_json(FAILURES_PATH, failures)
+    print(f"[done] prepared={len(prepared)} output={OUTPUT_PATH}")
+    print(f"[done] failed={len(failures)} report={FAILURES_PATH}")
 
 
 if __name__ == "__main__":
-    main()
+    asyncio.run(main_async())

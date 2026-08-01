@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import csv
-import json
 import re
 from collections import defaultdict
 from pathlib import Path
@@ -17,10 +16,7 @@ from pathlib import Path
 #     "이커머스-탐색-질문": "ecommerce",
 # }
 QUESTION_DOMAIN_OVERRIDES: dict[str, str] = {
-    "GEO서비스-탐색-질문": "general",
-    "마케팅-컨설팅-탐색-질문": "general",
-    "온라인-강좌-탐색-질문": "education",
-    "이커머스-탐색-질문": "ecommerce"
+    "온라인-강좌-탐색-질문": "education"
 }
 
 # Exact URL overrides win over question-based overrides.
@@ -47,9 +43,9 @@ DOMAIN_PRIORITY = [
 
 ROOT = Path(__file__).resolve().parents[1]
 MEDIATE_DIR = ROOT / "mediate-files"
-DEFAULT_PREPROCESSED = MEDIATE_DIR / "geo_preprocessed.jsonl"
+DEFAULT_ANSWER_URLS = MEDIATE_DIR / "answer_urls.txt"
 DEFAULT_MENTION_RATES = MEDIATE_DIR / "answer_url_mention_rates.csv"
-DOMAIN_FIELD_RE = re.compile(r'("domain"\s*:\s*")([^"]*)(")')
+DOMAIN_FIELD_RE = re.compile(r'("domain"\s*:\s*)(?:"([^"]*)"|([^\s]+))')
 
 
 def load_url_questions(path: Path) -> dict[str, set[str]]:
@@ -96,17 +92,18 @@ def replace_domain_only(line: str, new_domain: str) -> tuple[str, str | None]:
     if not match:
         return line, None
 
-    old_domain = match.group(2)
+    old_domain = match.group(2) if match.group(2) is not None else match.group(3)
     if old_domain == new_domain:
         return line, old_domain
 
-    updated = line[: match.start(2)] + new_domain + line[match.end(2) :]
+    value_group = 2 if match.group(2) is not None else 3
+    updated = line[: match.start(value_group)] + new_domain + line[match.end(value_group) :]
     return updated, old_domain
 
 
-def update_preprocessed_file(preprocessed_path: Path, mention_rates_path: Path, dry_run: bool) -> int:
+def update_answer_urls_file(answer_urls_path: Path, mention_rates_path: Path, dry_run: bool) -> int:
     url_questions = load_url_questions(mention_rates_path)
-    original_lines = preprocessed_path.read_text(encoding="utf-8").splitlines(keepends=True)
+    original_lines = answer_urls_path.read_text(encoding="utf-8").splitlines(keepends=True)
     updated_lines: list[str] = []
     changed_count = 0
 
@@ -115,12 +112,7 @@ def update_preprocessed_file(preprocessed_path: Path, mention_rates_path: Path, 
             updated_lines.append(line)
             continue
 
-        try:
-            record = json.loads(line)
-        except json.JSONDecodeError as exc:
-            raise ValueError(f"Invalid JSONL at line {line_number}: {exc}") from exc
-
-        url = str(record.get("url", "")).strip()
+        url = line.split(maxsplit=1)[0]
         new_domain = domain_for_url(url, url_questions)
         if not new_domain:
             updated_lines.append(line)
@@ -137,16 +129,16 @@ def update_preprocessed_file(preprocessed_path: Path, mention_rates_path: Path, 
         updated_lines.append(updated_line)
 
     if not dry_run:
-        preprocessed_path.write_text("".join(updated_lines), encoding="utf-8")
+        answer_urls_path.write_text("".join(updated_lines), encoding="utf-8")
 
     return changed_count
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description='Update only the "domain" value in mediate-files/geo_preprocessed.jsonl.'
+        description='Update only the "domain" value in mediate-files/answer_urls.txt.'
     )
-    parser.add_argument("--preprocessed", type=Path, default=DEFAULT_PREPROCESSED)
+    parser.add_argument("--answer-urls", type=Path, default=DEFAULT_ANSWER_URLS)
     parser.add_argument("--mention-rates", type=Path, default=DEFAULT_MENTION_RATES)
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
@@ -155,9 +147,9 @@ def main() -> None:
         print("[NOOP] QUESTION_DOMAIN_OVERRIDES is empty. Edit the config at the top of this file first.")
         return
 
-    changed_count = update_preprocessed_file(args.preprocessed, args.mention_rates, args.dry_run)
+    changed_count = update_answer_urls_file(args.answer_urls, args.mention_rates, args.dry_run)
     mode = "would update" if args.dry_run else "updated"
-    print(f"[DONE] {mode} {changed_count} lines in {args.preprocessed.relative_to(ROOT)}")
+    print(f"[DONE] {mode} {changed_count} lines in {args.answer_urls.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

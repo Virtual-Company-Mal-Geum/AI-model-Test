@@ -29,9 +29,9 @@ def mention_rate(row: dict[str, str]) -> float:
 
 
 def write_urls_txt(rows: list[dict[str, str]]) -> None:
-    urls = [row["url"] for row in rows]
-    OUTPUT_URLS_TXT.write_text("\n".join(urls) + "\n", encoding="utf-8")
-
+    urls = [row["url"]+' "domain": none' for row in rows]
+    OUTPUT_URLS_TXT.write_text("\n".join(urls) + '\n', encoding="utf-8")
+#^^수정함-for url,domain쌍
 
 def write_rates(rows: list[dict[str, str]]) -> None:
     with OUTPUT_RATES_MD.open("w", encoding="utf-8") as md_file:
