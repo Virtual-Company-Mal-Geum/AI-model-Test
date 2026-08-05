@@ -7,37 +7,30 @@ from collections import defaultdict
 from pathlib import Path
 
 
-# Configure question-specific domain overrides here.
-# Example:
+# 질문별 도메인을 이곳에서 설정합니다.
+# 설정 예시:
 # QUESTION_DOMAIN_OVERRIDES = {
+#     "questions.json에서 각 질문의 id": "도메인 명(유효 도메인: news | education | ecommerce )"
 #     "GEO서비스-탐색-질문": "business",
 #     "마케팅-컨설팅-탐색-질문": "business",
-#     "온라인-강좌-탐색-질문": "education",
-#     "이커머스-탐색-질문": "ecommerce",
-# }
 QUESTION_DOMAIN_OVERRIDES: dict[str, str] = {
-    "온라인-강좌-탐색-질문": "education"
-}
+    "education-domain-experiment-rag-version": "education"
+    }
 
-# Exact URL overrides win over question-based overrides.
-# Use this when the same URL appears in multiple questions but must have one fixed domain.
-# Example:
+# URL별 도메인 지정 규칙은 질문별 규칙보다 우선 적용됩니다.
+# 같은 URL이 여러 질문에 등장하더라도 하나의 고정 도메인을 사용해야 할 때 설정합니다.
+# 설정 예시:
 # URL_DOMAIN_OVERRIDES = {
 #     "https://fastcampus.co.kr/": "education",
 # }
 URL_DOMAIN_OVERRIDES: dict[str, str] = {}
 
-# If one URL is connected to multiple questions with different domains, choose the
-# most specific domain by this priority. "general" is intentionally last.
+# 하나의 URL이 서로 다른 도메인의 여러 질문과 연결되면 아래 우선순위에 따라
+# 가장 구체적인 도메인을 선택합니다.
 DOMAIN_PRIORITY = [
     "ecommerce",
     "education",
-    "business",
-    "medical",
-    "legal",
-    "news",
-    "academic",
-    "general",
+    "news"
 ]
 
 

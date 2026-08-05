@@ -8,7 +8,7 @@
   "questions": [
     {
       "id": "sample-summary",
-      "text": "인공지능의 장점과 단점을 5문장으로 요약해줘.",
+      "text": "인공지능의 장점과 단점을 5문장으로 요약해줘. 마지막에 추천한 곳의 url도 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)",
       "repeat": 2
     },
     {

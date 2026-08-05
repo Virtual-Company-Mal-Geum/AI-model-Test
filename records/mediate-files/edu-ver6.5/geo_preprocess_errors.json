@@ -1,0 +1,32 @@
+[
+  {
+    "url": "https://www.easyedu.net/page/index",
+    "domain": "education",
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://www.saramin.co.kr/zf_user/company-info/view/csn/N3JYd2kvSUNTSXJ4TmdoblE4V2FGUT09/company_nm/%EC%88%98%EC%9B%90%EC%97%AD%EC%9D%B4%EC%A7%80%EC%96%B4%ED%95%99%EC%9B%90",
+    "domain": "education",
+    "error": "Page.goto: Timeout 25000ms exceeded."
+  },
+  {
+    "url": "https://m.easyedu.net/page/index",
+    "domain": "education",
+    "error": "HTTP 404"
+  },
+  {
+    "url": "https://toeic.ybmclass.com/toeic/tochelin",
+    "domain": "education",
+    "error": "Page.goto: Timeout 25000ms exceeded."
+  },
+  {
+    "url": "https://toeic.ybmclass.com/toeic/toeic_main.asp",
+    "domain": "education",
+    "error": "Page.goto: Timeout 25000ms exceeded."
+  },
+  {
+    "url": "https://ybmedu.co.kr/",
+    "domain": "education",
+    "error": "Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://ybmedu.co.kr/"
+  }
+]

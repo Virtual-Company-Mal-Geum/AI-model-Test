@@ -93,7 +93,43 @@ class SingleEvaluatorLock:
 
 
 def load_jsonl(path: Path) -> list[dict[str, Any]]:
-    return [json.loads(line) for line in path.read_text(encoding="utf-8").splitlines() if line.strip()]
+    """Load evaluator records from either a JSON array or JSON Lines file."""
+    raw_text = path.read_text(encoding="utf-8-sig").strip()
+    if not raw_text:
+        return []
+
+    try:
+        parsed = json.loads(raw_text)
+    except json.JSONDecodeError:
+        records: list[Any] = []
+        for line_number, line in enumerate(raw_text.splitlines(), start=1):
+            if not line.strip():
+                continue
+            try:
+                records.append(json.loads(line))
+            except json.JSONDecodeError as exc:
+                raise ValueError(
+                    f"Invalid JSONL in {path} at line {line_number}: {exc.msg} "
+                    f"(column {exc.colno})"
+                ) from exc
+    else:
+        if isinstance(parsed, list):
+            records = parsed
+        elif isinstance(parsed, dict):
+            records = [parsed]
+        else:
+            raise ValueError(
+                f"Expected a JSON object, JSON array, or JSONL records in {path}; "
+                f"got {type(parsed).__name__}"
+            )
+
+    for index, record in enumerate(records, start=1):
+        if not isinstance(record, dict):
+            raise ValueError(
+                f"Expected record {index} in {path} to be a JSON object; "
+                f"got {type(record).__name__}"
+            )
+    return records
 
 
 def load_mention_rates(path: Path) -> list[dict[str, str]]:
@@ -110,18 +146,56 @@ def post_json(url: str, payload: dict[str, Any], timeout: int, verify_ssl: bool)
 
 
 def extract_total_score(response: dict[str, Any]) -> float | None:
-    direct = response.get("total_score") or response.get("Total Score")
-    if isinstance(direct, (int, float)):
-        return float(direct)
+    """Extract total_score from structured or text-based model responses."""
+
+    def parse_score(value: Any) -> float | None:
+        if isinstance(value, bool):
+            return None
+        if isinstance(value, (int, float)):
+            return float(value)
+        if isinstance(value, str):
+            match = re.fullmatch(
+                r"\s*([0-9]+(?:\.[0-9]+)?)\s*(?:/\s*100)?\s*",
+                value,
+            )
+            if match:
+                return float(match.group(1))
+        return None
+
+    def find_structured(value: Any) -> float | None:
+        if isinstance(value, dict):
+            for key, nested_value in value.items():
+                normalized_key = re.sub(r"[\s_-]+", "", str(key)).casefold()
+                if normalized_key == "totalscore":
+                    score = parse_score(nested_value)
+                    if score is not None:
+                        return score
+            for nested_value in value.values():
+                score = find_structured(nested_value)
+                if score is not None:
+                    return score
+        elif isinstance(value, list):
+            for nested_value in value:
+                score = find_structured(nested_value)
+                if score is not None:
+                    return score
+        return None
+
+    structured_score = find_structured(response)
+    if structured_score is not None:
+        return structured_score
 
     content = response.get("content") or response.get("result") or response.get("output") or response
     if not isinstance(content, str):
         content = json.dumps(content, ensure_ascii=False)
 
-    match = re.search(r"Total\s*Score\s*:\s*([0-9]+(?:\.[0-9]+)?)\s*/\s*100", content, re.I)
-    if match:
-        return float(match.group(1))
-    return None
+    match = re.search(
+        r'["\'`]?total(?:\s+|_+|-+)score["\'`]?\s*[:=]\s*'
+        r'["\']?([0-9]+(?:\.[0-9]+)?)(?:\s*/\s*100)?["\']?',
+        content,
+        re.I,
+    )
+    return float(match.group(1)) if match else None
 
 
 def write_scores(csv_path: Path, json_path: Path, rows: list[dict[str, Any]]) -> None:

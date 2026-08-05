@@ -1,0 +1,11 @@
+{
+  "n": 20,
+  "spearman_correlation": -0.11099291170806497,
+  "by_question": {
+    "education-domain-experiment-rag-version": {
+      "n": 20,
+      "spearman_correlation": -0.11099291170806497,
+      "plot": "result-files\\question-scatters\\education-domain-experiment-rag-version.png"
+    }
+  }
+}

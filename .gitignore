@@ -10,7 +10,8 @@ __pycache__/
 # 로컬 설정
 .agents/
 .codex/
-.vscode/
+.vscode/*
+!.vscode/launch.json
 
 # 비밀정보
 .env

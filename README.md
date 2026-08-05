@@ -21,6 +21,13 @@ Chrome에서 ChatGPT에 질문을 반복 입력하고, 각 답변을 별도의 M
 - 너무 짧은 간격으로 반복 실행하면 서비스 제한에 걸릴 수 있으니 `delay_between_runs_seconds`를 넉넉히 두세요. 
 - "delay_between_runs_seconds": 8 로 설정하는 것을 추천합니다.
 
+## 테스트 규칙
+- ChatGPT계정의 설정이 다음과 같이 되어있는지 확인하십시오.
+- 설정>개인 맞춤 설정>메모리>메모리 사용(off)
+- 설정>개인 맞춤 설정>고급>웹 검색(on)
+- questions.json 작성 시 질문 마지막에 다음 멘트를 첨부하십시오. "마지막에 추천한 곳의 url도 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)"
+- 성능 테스트가 모두 끝난 후 answers, mediate-files, result-files 폴더의 파일들은 records폴더로 옮기는 것을 권장합니다.
+
 ## 설치
 
 처음 한 번만 실행합니다.
@@ -34,6 +41,7 @@ python -m venv .venv
 ## 질문 설정
 
 `questions.json` 파일을 수정하세요.
+ 질문 작성 시 이 멘트를 질문 마지막에 반드시 추가하세요. "마지막에 추천한 곳의 url도 다음과 같은 형식으로 같이 알려줘. (이름, https://example.com/)" 
 
 ```json
 {
@@ -67,10 +75,52 @@ python -m venv .venv
 1. run.bat : 메크로 실행
 2. extract_answer_urls.py : ChatGPT 답변에서 언급횟수 추출
 3. build_url_outputs.py : 언급률 계산과 url추출
-4. update_preprocessed_domains.py : AI모델 입력 데이터 "domain" 지정
+4. update_domains.py : AI모델 입력 데이터 "domain" 지정
 5. preprocess_urls.py : url크롤링 후 AI모델 입력형식으로 변환
 6. evaluate.py : GEO점수 평가
 7. visualize.py : ChatGPT언급률과 GEO점수간의 상관관계 계산 및 산점도 생성
+
+## 전체 파이프라인 한 번에 실행
+
+# 실행 전 해야할 일
+1. questions.json 수정
+2. update_domains.py 수정하여 질문별 도메인 설정
+
+# 실행
+위 7단계를 순서대로 실행하려면 다음 배치 파일을 사용합니다.
+
+```powershell
+.\run_pipeline.bat
+```
+
+처음 로그인하거나 CAPTCHA 확인이 필요하면 다음과 같이 실행합니다.
+
+```powershell
+.\run_pipeline.bat --pause-for-login
+```
+
+중간 단계가 실패한 경우, 산출물을 유지한 채 해당 단계부터 다시 시작할 수 있습니다.
+
+```powershell
+.\run_pipeline.bat --start-at 5
+```
+
+특정 구간만 실행하거나 실제 실행 전에 명령을 확인할 수도 있습니다.
+
+```powershell
+.\run_pipeline.bat --start-at 2 --stop-after 4
+.\run_pipeline.bat --dry-run
+```
+
+평가 서버 옵션은 `evaluate.py`로 전달됩니다.
+
+```powershell
+.\run_pipeline.bat --eval-url https://example.com/evaluate --timeout 300 --sleep 2
+```
+
+VS Code의 **실행 및 디버그** 메뉴에서는 `Run Full GEO Pipeline`을 선택합니다.
+로그인이 필요하면 `Run GEO Pipeline (Login)` 구성을 선택합니다. 기존 `Preprocess URLs`
+구성도 개별 전처리 디버깅을 위해 유지되어 있습니다.
 
 ## 실행
 
